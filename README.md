@@ -1,2 +1,3 @@
-# Curso_de_Desenvolvimento_de_Sistemas
-Primeiro repositóvio versonado para registrar meu progresso durante o curso na área de programação
+# Diario_Dev
+Repositório criado para documentar meu progresso no curso técnico em Desenvolvimento de Sistemas.
+Aqui registro aprendizados, exercícios, projetos e anotações organizadas em unidades curriculares (UC).
