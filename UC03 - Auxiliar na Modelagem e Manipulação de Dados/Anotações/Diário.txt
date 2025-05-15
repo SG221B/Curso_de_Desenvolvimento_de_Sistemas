@@ -8,3 +8,5 @@ Irei aprender sobre: entidade,
 Ate então, banco de dados parece ser uma coisa bem bacana. Lidar com a manipulação, organização e facilitando o acesso a vários dados.
 
 Vamos que vamos!
+
+Comecei a me assutar um pouquinho ao estutar relacionamento ternários, quaternários e etc.
