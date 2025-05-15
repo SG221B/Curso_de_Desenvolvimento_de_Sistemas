@@ -1,0 +1,10 @@
+15/05/25
+Hoje irei iniciar meu estudo em: Modelo de entidade e relacionamento.
+Irei aprender sobre: entidade,
+                     atributos,
+                     chave primária, estrangeira e
+                     relacionamentos.
+
+Ate então, banco de dados parece ser uma coisa bem bacana. Lidar com a manipulação, organização e facilitando o acesso a vários dados.
+
+Vamos que vamos!
