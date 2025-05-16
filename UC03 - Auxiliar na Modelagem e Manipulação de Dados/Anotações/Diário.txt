@@ -9,8 +9,10 @@ Até então, banco de dados parece ser uma coisa bem bacana. Lidar com a manipul
 
 Vamos que vamos!
 
-Lição 1:
+Lição 1: Modelagem conseitual do banco de dados.
 
-Modelagem conseitual
+Lição 2: RelacionamentosTernários.
+Essa parte me assustou um pouquinho, confesso. Mas fazendo algumas pesquisas por fora, vi que na verdade é tudo bem simples. Por isso, aqui vai uma dica: "sempre façam pesquisas complementares", ou seja, dê um google. Com a modernidade de hoje é facil, tem muitos vídeos no youtube de poucos minutos que explicam tão bem um assunto que talvez no material de estudo do curso nâo tenha ficado tão claro.
 
-Comecei a me assutar um pouquinho ao estutar relacionamento ternários, quaternários e etc.
+Eis o que aprendi:
+(imagem)
