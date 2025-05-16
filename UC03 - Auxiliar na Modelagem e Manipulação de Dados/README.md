@@ -13,7 +13,7 @@ Esta unidade curricular aborda fundamentos importantes sobre bancos de dados e m
 
 Você pode acompanhar meu progresso, aprendizados e reflexões no arquivo abaixo:
 
-👉 [Acesse o diario.md](./diário.md)
+👉 [Acesse o diario.md](./Diário.md)
 
 ## 💡 Observações
 
