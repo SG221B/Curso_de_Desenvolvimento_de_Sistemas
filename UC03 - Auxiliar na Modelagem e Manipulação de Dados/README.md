@@ -13,7 +13,7 @@ Esta unidade curricular aborda fundamentos importantes sobre bancos de dados e m
 
 Você pode acompanhar meu progresso, aprendizados e reflexões no arquivo abaixo:
 
-👉 [Acesse o diario.md](UC03 - Auxiliar na Modelagem e Manipulação de Dados/Diário.md)
+👉 [Acesse o diario.md](./diário.md)
 
 ## 💡 Observações
 
