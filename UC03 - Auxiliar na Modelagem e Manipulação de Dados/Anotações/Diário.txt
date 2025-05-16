@@ -5,8 +5,12 @@ Irei aprender sobre: entidade,
                      chave primária, estrangeira e
                      relacionamentos.
 
-Ate então, banco de dados parece ser uma coisa bem bacana. Lidar com a manipulação, organização e facilitando o acesso a vários dados.
+Até então, banco de dados parece ser uma coisa bem bacana. Lidar com a manipulação, organização e facilitando o acesso a vários dados.
 
 Vamos que vamos!
+
+Lição 1:
+
+Modelagem conseitual
 
 Comecei a me assutar um pouquinho ao estutar relacionamento ternários, quaternários e etc.
