@@ -1,4 +1,4 @@
-# UC03 — Ferramentas de Desenvolvimento
+# UC03 — Auxiiar na Modelagem e Manipulação de Dados
 
 Esta unidade curricular aborda fundamentos importantes sobre bancos de dados e modelagem conceitual. O foco está em compreender a modelagem conceitual de um banco de dados e as técnicas de levantamento de dados e requisitos funcionais e não funcionais.
 
