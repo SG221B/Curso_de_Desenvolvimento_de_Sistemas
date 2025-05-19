@@ -55,7 +55,7 @@ Recomendo começar por esse arquivo para acompanhar a sequência dos estudos.
 
 Caso queira conversar, tirar dúvidas ou colaborar, estou aberto a trocas!  
 Você pode me encontrar em:  
-- [contactluisfernandosg@gmail.com]
+- contactluisfernandosg@gmail.com
 
 ---
 
