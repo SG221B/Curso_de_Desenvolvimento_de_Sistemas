@@ -63,21 +63,27 @@ Para isso, são utilizadas diversas técnicas, como:
 
 **🧠 Resumo do aprendizado:**
 
-Levantamento e especificação de requisitos envolve identificar as funcionalidades e comportamentos esperados de um sistema. Para isso, utiliza-se as mesmas **técnicas de levantamento de dados** estudadas no dia 17/05, como observação, entrevistas e questionários.
+Sabe quando alguém te pede um favor, mas não explica direito o que quer? Quais são as chances disso dar errado? 
+Para evitar que isso aconteça no seu projeto, é realizado o **levantamento e especificação de requisitos** que consiste basicamente em *entender — o que o sistema — precisa fazer*
 
-Após a coleta dos dados, os **requisitos** do sistema são definidos e **documentados**. Essa documentação é então **compartilhada com os membros da equipe e com os clientes** para garantir que todos compreendam e concordem com o que será desenvolvido.
+É para isso que utilizamos as **técnicas de levantamento de dados** que estudamos no dia 17/05, como observação, entrevista e questionário.
 
+Depois de coletado as informações, é hora de **especificar os requisitos**. Ou seja, colocar tudo no papel de forma clara e organizada sobre o que será feito, e **compartilhar com os membros da equipe** para garantir que todos (isso inclui o cliente, tá?) compreendam e concordem com o que será desenvolvido.
+
+Isso ajuda todo mundo a falar a mesma língua, evitar confusão e tudo acabar no casos de familía. (*Incluir meme depois)
 ---
 
 ### 📘 Lição 3: Dicionário de dados
 
-- Após o levantamento, organiza-se a informação em um dicionário de dados.
-- Ele funciona como um "Aurélio" da base de dados: contém descrições detalhadas de cada elemento.
-- Pode ser apresentado em formato textual ou planilhas.
+- Descrever o que cada dado significa.
+- Garantir que todo mundo entenda os dados da mesma forma.
 
 **🧠 Resumo do aprendizado:**
 
-O **dicionário de dados** descreve detalhadamente todas as tabelas e campos do banco de dados. Assim como um dicionário tradicional da a explicação, significado e uso de uma palavra, o dicionário de dados explica os componentes do sistema — o que são, como são usados e qual seu significado.
+Pense em um diacioário de verdade, como o Aurélio. Ele explica o que cada palavra significa, certo?  
+O **dicionário de dados** é parecido: ele explica os *componentes do sistema — o que são, como são usados e qual seu significado.*
+
+É nele que a gente organiza e descreve cada informação que o sistema vai usar.
 
 **📌 Importância:**
 
