@@ -145,7 +145,7 @@ Entendido o bloqueio, vamos ver as principais diferenças entre MyISAM e InnoDB:
 - Usa bloqueio por **linha**, permitindo múltiplas alterações simultâneas em diferentes partes da tabela.
 - Ideal para aplicações dinâmicas, como sistemas com muitos usuários atualizando dados ao mesmo tempo.
 
-📌 **Exemplos:**  
+💪🏼 **Na prática**  
 **Bloqueio de Tabela (MyISAM):**  
 Você quer atualizar 1 linha, mas o MySQL bloqueia a tabela inteira.  
 Outros usuários que tentarem ler ou escrever nessa tabela vão ter que esperar.
