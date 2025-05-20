@@ -70,7 +70,8 @@ Para evitar que isso aconteça no seu projeto, é realizado o **levantamento e e
 
 Depois de coletado as informações, é hora de **especificar os requisitos**. Ou seja, colocar tudo no papel de forma clara e organizada sobre o que será feito, e **compartilhar com os membros da equipe** para garantir que todos (isso inclui o cliente, tá?) compreendam e concordem com o que será desenvolvido.
 
-Isso ajuda todo mundo a falar a mesma língua, evitar confusão e tudo acabar no casos de familía. (*Incluir meme depois)
+Isso ajuda todo mundo a falar a mesma língua, evitar confusão e tudo acabar no casos de familía. (Incluir meme depois)
+
 ---
 
 ### 📘 Lição 3: Dicionário de dados
