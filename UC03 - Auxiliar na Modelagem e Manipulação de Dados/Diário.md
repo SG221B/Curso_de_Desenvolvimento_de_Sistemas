@@ -70,7 +70,8 @@ Para evitar que isso aconteça no seu projeto, é realizado o **levantamento e e
 
 Depois de coletado as informações, é hora de **especificar os requisitos**. Ou seja, colocar tudo no papel de forma clara e organizada sobre o que será feito, e **compartilhar com os membros da equipe** para garantir que todos (isso inclui o cliente, tá?) compreendam e concordem com o que será desenvolvido.
 
-Isso ajuda todo mundo a falar a mesma língua, evitar confusão e tudo acabar no casos de familía. (Incluir meme depois)
+Isso ajuda todo mundo a falar a mesma língua, evitar confusão e tudo acabar no casos de familía.
+![Casos de Família](./Recursos/UC03%20-%20meme_casos_de_familia.jpg)
 
 ---
 
@@ -88,14 +89,15 @@ O **dicionário de dados** é parecido: ele explica os *componentes do sistema* 
 
 **📌 Importância:**
 
-A qualidade da informação depende de como os dados são coletados, organizados e contextualizados. Um dicionário de dados bem elaborado garante que os dados serão compreendidos corretamente por todos os envolvidos no projeto.
+A qualidade da informação depende de como os dados são coletados, organizados e contextualizados. Um dicionário de dados bem elaborado garante que *os dados serão compreendidos corretamente por todos os envolvidos no projeto*.
 
 **⚠️ Quando não há dicionarização:**
 
-Sem um dicionário de dados, se as informações forem apenas entregues em uma planilhas ou relatório, pode acabar gerando **interpretações equivocadas**, pois não haverá clareza sobre o que cada coluna ou campo representa. O dicionário evita essas ambiguidades e promove **comunicação clara e eficiente** entre os membros da equipe.
+Sem um dicionário de dados, se as informações forem entregues apenas em uma planilha ou relatório, podem surgir **interpretações equivocadas**. Isso porque não ficará claro o que cada coluna ou campo representa. A falta de contexto abre espaço para confusão.
 
 **Exemplo de Dicionário de dados:**
-Imagine uma entidade “consumidor”, com seus atributos. Em um dicionário de dados ele ficaria assim:
+Imagine uma entidade “consumidor”, com seus atributos. Em um dicionário de dados ficaria assim:
+
 ![Exemplo dicionário de dados](./Recursos/UC03%20-%20exemplo_de_dicionario_de_dados.png)
 
 #
