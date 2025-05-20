@@ -96,7 +96,6 @@ Sem um dicionário de dados, se as informações forem apenas entregues em uma p
 
 **Exemplo de Dicionário de dados:**
 Imagine uma entidade “consumidor”, com seus atributos. Em um dicionário de dados ele ficaria assim:
-
 ![Exemplo dicionário de dados](./Recursos/UC03%20-%20exemplo_de_dicionario_de_dados.png)
 
 #
