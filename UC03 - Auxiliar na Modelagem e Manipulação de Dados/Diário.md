@@ -73,7 +73,7 @@ Depois de coletado as informações, é hora de **especificar os requisitos**. O
 Isso ajuda todo mundo a falar a mesma língua, evitar confusão e tudo acabar no casos de familía.
 
 <div align="center">
-  <img src="./Recursos/UC03 - exemplo_de_dicionario_de_dados.png" alt="casos_de_familia" width="300px">
+  <img src="./Recursos/UC03 - meme_casos_de_familia.jpg" alt="casos_de_familia" width="300px">
 </div>
 ---
 
