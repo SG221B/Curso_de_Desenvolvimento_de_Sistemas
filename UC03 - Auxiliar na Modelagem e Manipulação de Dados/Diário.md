@@ -106,6 +106,67 @@ Imagine uma entidade “consumidor”, com seus atributos. Em um dicionário de 
 
 #
 
+## 📅 20 de maio de 2025
+
+### lição 4: Arquitetura de Arquivos de Dados
+
+- Conhecer os mecanismos de armazenamento do MySQL (MyISAM e InnoDB)
+
+**🧠 Resumo do aprendizado:**
+
+A **arquitetura de arquivos de dados** define como os dados são armazenados e acessados dentro de um sistema. No contexto de bancos de dados relacionais, como o MySQL, isso envolve a **escolha do mecanismo de armazenamento** das tabelas. Para simplificar, é como escolher se você irá usar um HD ou um SSD para salvar seus arquivos.
+
+Mas falando sobre MySQL, os dois principais mecanismos são:
+
+- **MyISAM**
+- **InnoDB**
+
+Essa escolha entre um ou outro afeta diretamente o **desempenho** e a forma como o banco lida com **concorrência**, ou seja, quando vários usuários acessam ou modificam os dados ao mesmo tempo.
+
+Para isso, precisamos entender o que é bloqueio.
+
+---
+
+🔒 **O que é bloqueio no MySQL?**  
+O bloqueio é um mecanismo de proteção dos dados no banco de dados. Ele evita que dois usuários modifiquem os mesmos dados ao mesmo tempo, o que poderia gerar erros ou informações inconsistentes.
+
+Por exemplo:  
+Imagine que duas pessoas tentam editar o mesmo parágrafo de um documento ao mesmo tempo. Se não houver um controle (bloqueio), uma pode apagar o que a outra escreveu. O bloqueio serve para impedir isso, garantindo que uma pessoa de cada vez possa modificar os dados.
+
+Entendido o bloqueio, vamos ver as principais diferenças entre MyISAM e InnoDB:
+
+**MyISAM**
+- Mais rápido para leitura de dados (ex: consultas em grandes tabelas que quase não mudam).
+- Faz bloqueio da tabela **inteira** ao modificar dados (mais simples, mas menos eficiente em situações com muitas gravações).
+- Bom para sistemas onde os dados são lidos com frequência, mas raramente alterados.
+
+**InnoDB**
+- Melhor para escrita e atualização de dados frequentes.
+- Usa bloqueio por **linha**, permitindo múltiplas alterações simultâneas em diferentes partes da tabela.
+- Ideal para aplicações dinâmicas, como sistemas com muitos usuários atualizando dados ao mesmo tempo.
+
+📌 **Exemplos:**  
+**Bloqueio de Tabela (MyISAM):**  
+Você quer atualizar 1 linha, mas o MySQL bloqueia a tabela inteira.  
+Outros usuários que tentarem ler ou escrever nessa tabela vão ter que esperar.
+
+**Bloqueio de Linha (InnoDB):**  
+Você atualiza apenas 1 linha, e o MySQL trava só essa linha.  
+Outros usuários podem continuar mexendo nas outras linhas normalmente.
+
+🧠 **Por que isso importa?**  
+MyISAM (bloqueio de tabela) é mais simples, mas pode causar atrasos em sistemas com muitos acessos simultâneos.  
+InnoDB (bloqueio de linha) é mais complexo, mas permite maior concorrência e desempenho em sistemas que fazem muitas alterações nos dados.
+
+Logo, chegamos à conclusão de que a escolha entre qual mecanismo de armazenamento usar depende do tipo de aplicação e da frequência de leitura/gravação dos dados.
+
+Imagine um site com uma tabela chamada `noticias`:
+
+- Se os usuários **só leem** as notícias, e elas **quase nunca mudam**, o **MyISAM** pode funcionar bem.
+- Se os usuários **comentam**, **curtem** e as notícias são **editadas frequentemente**, o **InnoDB** é muito melhor — graças ao **bloqueio por linha**, que permite múltiplas modificações ao mesmo tempo sem travar tudo.
+
+#
+
 ## 📅 17 de maio de 2025
 
 ### Tópico: Modelo de Entidade e Relacionamento
