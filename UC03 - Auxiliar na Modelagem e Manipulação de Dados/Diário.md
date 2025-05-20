@@ -56,11 +56,36 @@ Para isso, são utilizadas diversas técnicas, como:
 ## 📅 19 de maio de 2025
 
 ### 📘 Lição 2: Levantamento e especificação de requisitos
-- 
-- 
-- 
+
+- Essa etapa define o que o sistema precisa fazer.
+- Consiste em documentar de forma clara e organizada como o sistema pode alcançar esses objetivos.
+- Os requisitos levantados são compartilhados com a equipe e os clientes para garantir o alinhamento entre todos os envolvidos.
 
 **🧠 Resumo do aprendizado:**
+
+Levantamento e especificação de requisitos envolve identificar as funcionalidades e comportamentos esperados de um sistema. Para isso, utiliza-se as mesmas **técnicas de levantamento de dados** estudadas no dia 17/05, como observação, entrevistas e questionários.
+
+Após a coleta dos dados, os **requisitos** do sistema são definidos e **documentados**. Essa documentação é então **compartilhada com os membros da equipe e com os clientes** para garantir que todos compreendam e concordem com o que será desenvolvido.
+
+---
+
+### 📘 Lição 3: Dicionário de dados
+
+- Após o levantamento, organiza-se a informação em um dicionário de dados.
+- Ele funciona como um "Aurélio" da base de dados: contém descrições detalhadas de cada elemento.
+- Pode ser apresentado em formato textual ou planilhas.
+
+**🧠 Resumo do aprendizado:**
+
+O **dicionário de dados** descreve detalhadamente todas as tabelas e campos do banco de dados. Assim como um dicionário tradicional explica palavras, o dicionário de dados explica os componentes do sistema — o que são, como são usados e qual seu significado.
+
+**📌 Importância:**
+
+A qualidade da informação depende de como os dados são coletados, organizados e contextualizados. Um dicionário de dados bem elaborado garante que os dados serão compreendidos corretamente por todos os envolvidos no projeto.
+
+**⚠️ Quando não há dicionarização:**
+
+Sem um dicionário de dados, planilhas ou relatórios podem gerar **interpretações equivocadas**, pois não haverá clareza sobre o que cada coluna ou campo representa. O dicionário evita essas ambiguidades e promove **comunicação clara e eficiente** entre os membros da equipe.
 
 #
 
