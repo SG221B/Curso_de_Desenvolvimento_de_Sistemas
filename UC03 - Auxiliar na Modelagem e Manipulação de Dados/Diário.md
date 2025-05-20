@@ -77,7 +77,7 @@ Após a coleta dos dados, os **requisitos** do sistema são definidos e **docume
 
 **🧠 Resumo do aprendizado:**
 
-O **dicionário de dados** descreve detalhadamente todas as tabelas e campos do banco de dados. Assim como um dicionário tradicional explica palavras, o dicionário de dados explica os componentes do sistema — o que são, como são usados e qual seu significado.
+O **dicionário de dados** descreve detalhadamente todas as tabelas e campos do banco de dados. Assim como um dicionário tradicional da a explicação, significado e uso de uma palavra, o dicionário de dados explica os componentes do sistema — o que são, como são usados e qual seu significado.
 
 **📌 Importância:**
 
@@ -85,7 +85,11 @@ A qualidade da informação depende de como os dados são coletados, organizados
 
 **⚠️ Quando não há dicionarização:**
 
-Sem um dicionário de dados, planilhas ou relatórios podem gerar **interpretações equivocadas**, pois não haverá clareza sobre o que cada coluna ou campo representa. O dicionário evita essas ambiguidades e promove **comunicação clara e eficiente** entre os membros da equipe.
+Sem um dicionário de dados, se as informações forem apenas entregues em uma planilhas ou relatório, pode acabar gerando **interpretações equivocadas**, pois não haverá clareza sobre o que cada coluna ou campo representa. O dicionário evita essas ambiguidades e promove **comunicação clara e eficiente** entre os membros da equipe.
+
+**Exemplo de Dicionário de dados:**
+Será utilizada uma hipotética entidade “consumidor”, com seus atributos, como exemplo de um dicionário de dados.
+![Exemplo dicionário de dados](./Recursos/UC03%20-%20exemplo_de_dicionario_de_dados.png)
 
 #
 
