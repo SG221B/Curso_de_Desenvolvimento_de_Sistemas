@@ -108,7 +108,7 @@ Imagine uma entidade “consumidor”, com seus atributos. Em um dicionário de 
 
 ## 📅 20 de maio de 2025
 
-### lição 4: Arquitetura de Arquivos de Dados
+### Lição 4: Arquitetura de Arquivos de Dados
 
 - Conhecer os mecanismos de armazenamento do MySQL (MyISAM e InnoDB)
 
@@ -154,7 +154,7 @@ Outros usuários que tentarem ler ou escrever nessa tabela vão ter que esperar.
 Você atualiza apenas 1 linha, e o MySQL trava só essa linha.  
 Outros usuários podem continuar mexendo nas outras linhas normalmente.
 
-🧠 **Por que isso importa?**  
+❓ **Por que isso importa?**  
 MyISAM (bloqueio de tabela) é mais simples, mas pode causar atrasos em sistemas com muitos acessos simultâneos.  
 InnoDB (bloqueio de linha) é mais complexo, mas permite maior concorrência e desempenho em sistemas que fazem muitas alterações nos dados.
 
@@ -165,34 +165,15 @@ Imagine um site com uma tabela chamada `noticias`:
 - Se os usuários **só leem** as notícias, e elas **quase nunca mudam**, o **MyISAM** pode funcionar bem.
 - Se os usuários **comentam**, **curtem** e as notícias são **editadas frequentemente**, o **InnoDB** é muito melhor — graças ao **bloqueio por linha**, que permite múltiplas modificações ao mesmo tempo sem travar tudo.
 
-#
+## Nota pessoal:
+Ufá!!! Esse módulo foi difícil, heim. Teve muitos termos dos quais não estou acostumado e tive que pesquisar bastante para compreender cada um dos conceitos apresentados e espero ter entendido tudo direitinho para compartilharcom você.
 
-## 📅 17 de maio de 2025
+Se você tambem está se sentindo assim, não se preocupe, tenho a esperança de que tudo irá ficar mais claro conforme formos aplicando esses conceitos **na prática** assim espero (desespero).
 
-### Tópico: Modelo de Entidade e Relacionamento
+> Imagine que você faça amizade com um ET. O que seria mais fácil, explicar o que é uma vaca ou *mostrar* a ele um animal chamado vaca?
 
-**Início do estudo em:**
-- Modelo de entidade e relacionamento
+Tudo fica mais simples depois que se mostra como é feito e acredito que a idéia até aque seja apenas ter um conhecimento teórico para nos preparar para o que ainda iremos ver e aplicar pela frente.
 
-**Conteúdo a ser aprendido:**
-- Entidades  
-- Atributos  
-- Chave primária e estrangeira  
-- Relacionamentos  
+Até o proximo módulo. Fúi!!! 💨
 
-**Impressão inicial:**  
-Banco de dados me parece ser uma coisa bem bacana. Gosto da ideia de manipular, organizar e facilitar o acesso a vários dados.
-
-**Vamos que vamos!**
-
----
-
-### 📘 Lição 1: Relacionamentos Ternários
-
-- No início, me assustei um pouco 😅
-- Pesquisando por fora, percebi que é mais simples do que parecia.
-- **Dica pessoal:** Sempre façam pesquisas complementares!  
-- Um vídeo curto no YouTube pode esclarecer algo que não ficou claro no material principal.
-
-**Resumo do aprendizado:**
-> 
+(ainda em desespero...)
