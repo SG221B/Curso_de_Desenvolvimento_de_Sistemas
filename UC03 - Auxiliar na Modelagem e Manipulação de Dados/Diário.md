@@ -213,7 +213,7 @@ Agora vamos ver algumas **operações com conjuntos** e como elas se aplicam ao 
 > Como o póprio nome já diz, essa operação irá *unir* os elementos dos conjuntos:
 ![União](./Recursos/uniao-tab1.png)
 
-Ao aplicar a uniao, o resultado seria:
+> Ao aplicar a união, o resultado seria:
 
 ![Resultado](./Recursos/uniao-resultado.png)
 
@@ -221,12 +221,18 @@ Ao aplicar a uniao, o resultado seria:
 > Essa operação irá selecionar somente os elementos **iguais** presentes nas duas tabelas. Veja só:
 
 ![Intersessão](./Recursos/intersessao-tab1.png)
+
+> Resultado:
+
 ![Resultado](./Recursos/intersessao-resultado.png)
 
 **Diferença:**
 > Dessa vez, a operação irá selecionar os elementos que são **diferentes** nas tabelas:
 
 ![Diferença](./Recursos/diferença-tabela1.png)
+
+> Resultado:
+
 ![Resultado](./Recursos/diferença-tabela2.png)
 
 ---
