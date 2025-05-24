@@ -75,6 +75,7 @@ Isso ajuda todo mundo a falar a mesma língua, evitar confusão e tudo acabar no
 <div align="center">
   <img src="./Recursos/UC03 - meme_casos_de_familia.png" alt="casos_de_familia" width="300px">
 </div>
+
 ---
 
 ### 📘 Lição 3: Dicionário de dados
@@ -164,6 +165,74 @@ Imagine um site com uma tabela chamada `noticias`:
 
 - Se os usuários **só leem** as notícias, e elas **quase nunca mudam**, o **MyISAM** pode funcionar bem.
 - Se os usuários **comentam**, **curtem** e as notícias são **editadas frequentemente**, o **InnoDB** é muito melhor — graças ao **bloqueio por linha**, que permite múltiplas modificações ao mesmo tempo sem travar tudo.
+
+#
+
+## 📅 21 de maio de 2025
+
+### 📘 Lição 5: Teoria dos Conjuntos
+- 
+- 
+- 
+
+**🧠 Resumo do aprendizado:**
+
+Primeiro, quero dizer para não se assustar — você vai ver algumas fórmulas matemáticas aqui, mas a ideia é entender como a teoria dos conjuntos está relacionada a banco de dados, e é bem simples. É sobre como você vai extrair os dados do banco de forma organizada.
+
+**A teoria dos conjuntos** é um ramo da matemática que estuda os *conjuntos* e o comportamento dos *elementos*.
+
+Mas o que são elementos e conjuntos?
+
+**Elementos** podem ser qualquer coisa: números, pessoas, frutas...
+
+Por exemplo: digamos que você tenha uma fazenda, e nela há vários animais. Logo, podemos dizer que você tem uma coleção de animais. Aqui, os seus animais são os elementos.
+
+**Conjuntos**  
+Você pode dividir seus animais em grupos, não pode? Ex.: um grupo de animais com asas — galinha, pato, piriquito, peru — e outro grupo com animais quadrúpedes, como porco, cavalo, boi etc.  
+Esses grupos são chamados de quê?  
+Exatamente: **conjuntos**.
+
+Às vezes, um elemento pode fazer parte de dois conjuntos ao mesmo tempo.  
+Se você tivesse um grifo, ele faria parte tanto do conjunto “animais com asas” quanto do conjunto “animais quadrúpedes”.
+- Além disso seria muito bacana.
+
+A teoria dos conjuntos estuda essas relações.
+
+A relação mais básica entre um elemento e um conjunto é dizer se o elemento pertence ou não a ele.  
+O elemento *galinha* pertence ou não ao conjunto *animais com asas*?
+
+Na matemática, isso é representado assim:  
+**x ∈ A** (x pertence ao conjunto A)  
+**x ∉ A** (x não pertence ao conjunto A)
+
+Agora vamos ver algumas **operações com conjuntos** e como elas se aplicam ao banco de dados.
+
+---
+
+**União:**
+> Como o póprio nome já diz, essa operação irá *unir* os elementos dos conjuntos:
+![União](./Recursos/uniao-tab1.png)
+
+Ao aplicar a uniao, o resultado seria:
+
+![Resultado](./Recursos/uniao-resultado.png)
+
+**Intersessão:**
+> Essa operação irá selecionar somente os elementos **iguais** presentes nas duas tabelas. Veja só:
+
+![Intersessão](./Recursos/intersessao-tab1.png)
+![Resultado](./Recursos/intersessao-resultado.png)
+
+**Diferença:**
+> Dessa vez, a operação irá selecionar os elementos que são **diferentes** nas tabelas:
+
+![Diferença](./Recursos/diferença-tabela1.png)
+![Resultado](./Recursos/diferença-tabela2.png)
+
+---
+
+## 📘 Lição 5: Tipos de dados
+
 
 ## Nota pessoal:
 Ufá!!! Esse módulo foi difícil, heim. Teve muitos termos dos quais não estou acostumado e tive que pesquisar bastante para compreender cada um dos conceitos apresentados e espero ter entendido tudo direitinho para compartilharcom você.
