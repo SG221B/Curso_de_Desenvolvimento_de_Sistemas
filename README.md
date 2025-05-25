@@ -3,6 +3,11 @@
 Bem-vindo ao meu diário de estudos do curso técnico de Desenvolvimento de Sistemas!  
 Aqui documento minha jornada de aprendizado, com anotações, reflexões, resumos e exemplos práticos organizados por unidade curricular.
 
+![Última atualização](https://img.shields.io/github/last-commit/lf-gomes/LF-gomes)
+![License](https://img.shields.io/github/license/lf-gomes/LF-gomes)
+![Visualizações](https://komarev.com/ghpvc/?username=lf-gomes)
+![Tamanho](https://img.shields.io/github/repo-size/lf-gomes/LF-gomes)
+
 ---
 
 ## 📑 Índice
