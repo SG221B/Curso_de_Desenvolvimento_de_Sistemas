@@ -1,14 +1,31 @@
-# Diário de Estudos - Desenvolvimento de Sistemas
+# 📘 Diário de Estudos em Desenvolvimento de Sistemas
 
 Bem-vindo ao meu diário de estudos do curso técnico de Desenvolvimento de Sistemas!  
 Aqui documento minha jornada de aprendizado, com anotações, reflexões, resumos e exemplos práticos organizados por unidade curricular.
 
 ---
 
-## 📚 Sobre este repositório
+## 📑 Índice
 
-Este repositório tem o objetivo de registrar de forma clara e organizada todo o conteúdo que vou estudando ao longo do curso.  
-Ele está dividido em pastas, uma para cada Unidade Curricular (UC), onde ficam os arquivos de anotações e diários de cada tema.
+- [📌 Sobre o Projeto](#-sobre-o-projeto)
+- [🎯 Objetivo](#-objetivo)
+- [🧠 Como eu estudo](#-como-eu-estudo)
+- [🤖 Uso do ChatGPT](#-uso-do-chatgpt)
+- [📂 Estrutura do repositório](#-estrutura-do-repositório)
+- [👤 Sobre mim](#-sobre-mim)
+- [📬 Contato](#-contato)
+
+---
+
+## 📌 Sobre o Projeto
+
+Este repositório contém registros semanais de estudo do curso técnico, com foco em lógica de programação, banco de dados, fundamentos da computação e outros temas da área de tecnologia.
+
+---
+
+## 🎯 Objetivo
+
+Registrar de forma simples e organizada o progresso dos estudos, reforçar o aprendizado e facilitar a revisão futura.
 
 ---
 
@@ -44,10 +61,9 @@ Minha intenção é manter transparência e responsabilidade no uso da inteligê
 
 ---
 
-## 📌 Como navegar
-
-Cada pasta de UC contém um arquivo `Diário.md` com minhas anotações diárias e principais aprendizados.  
-Recomendo começar por esse arquivo para acompanhar a sequência dos estudos.
+👤 Sobre mim
+Me chamo Luis Fernando. Estou cursando Técnico em Desenvolvimento de Sistemas na modalidade EAD pela isntituição SENAC. Gosto de aprender, organizar conhecimento e quero evoluir na área de tecnologia.
+Meu objetivo é alcançar a carreira de programador beck-end
 
 ---
 

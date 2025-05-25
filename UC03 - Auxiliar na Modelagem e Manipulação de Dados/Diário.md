@@ -24,7 +24,8 @@
 
 ---
 
-**🧠 Resumo do aprendizado:**
+**🧠 Aprendizado:**
+
 O **levantamento de dados** tem como objetivo entender as principais e reais necessidades do cliente.  
 Para isso, são utilizadas diversas técnicas, como:
 
@@ -61,7 +62,9 @@ Para isso, são utilizadas diversas técnicas, como:
 - Consiste em documentar de forma clara e organizada como o sistema pode alcançar esses objetivos.
 - Os requisitos levantados são compartilhados com a equipe e os clientes para garantir o alinhamento entre todos os envolvidos.
 
-**🧠 Resumo do aprendizado:**
+---
+
+**🧠 Aprendizado:**
 
 Sabe quando alguém te pede um favor, mas não explica direito o que quer? Quais são as chances disso dar errado? 
 Para evitar que isso aconteça no seu projeto, é realizado o **levantamento e especificação de requisitos** que consiste basicamente em *entender — o que o sistema — precisa fazer*
@@ -83,7 +86,9 @@ Isso ajuda todo mundo a falar a mesma língua, evitar confusão e tudo acabar no
 - Descrever o que cada dado significa.
 - Garantir que todo mundo entenda os dados da mesma forma.
 
-**🧠 Resumo do aprendizado:**
+---
+
+**🧠 Aprendizado:**
 
 Pense em um diacioário de verdade, como o Aurélio. Ele explica o que cada palavra significa, certo?  
 O **dicionário de dados** é parecido: ele explica os *componentes do sistema* — o que são, como são usados e qual seu significado.
@@ -113,7 +118,9 @@ Imagine uma entidade “consumidor”, com seus atributos. Em um dicionário de 
 
 - Conhecer os mecanismos de armazenamento do MySQL (MyISAM e InnoDB)
 
-**🧠 Resumo do aprendizado:**
+---
+
+**🧠 Aprendizado:**
 
 A **arquitetura de arquivos de dados** define como os dados são armazenados e acessados dentro de um sistema. No contexto de bancos de dados relacionais, como o MySQL, isso envolve a **escolha do mecanismo de armazenamento** das tabelas. Para simplificar, é como escolher se você irá usar um HD ou um SSD para salvar seus arquivos.
 
@@ -171,11 +178,11 @@ Imagine um site com uma tabela chamada `noticias`:
 ## 📅 21 de maio de 2025
 
 ### 📘 Lição 5: Teoria dos Conjuntos
-- 
-- 
-- 
 
-**🧠 Resumo do aprendizado:**
+- Conceitos básicos da teoria dos conjuntos
+- Operações com conjuntos: união, interseção e diferença
+
+**🧠 Aprendizado:**
 
 Primeiro, quero dizer para não se assustar — você vai ver algumas fórmulas matemáticas aqui, mas a ideia é entender como a teoria dos conjuntos está relacionada a banco de dados, e é bem simples. É sobre como você vai extrair os dados do banco de forma organizada.
 
@@ -237,7 +244,17 @@ Agora vamos ver algumas **operações com conjuntos** e como elas se aplicam ao 
 
 ---
 
-## 📘 Lição 6: Tipos de dados
+## 📘 Lição 6: Tipos de Dados
+
+- 
+- 
+
+**🧠 Aprendizado:**
+
+
+---
+
+
 
 
 ## Nota pessoal:
