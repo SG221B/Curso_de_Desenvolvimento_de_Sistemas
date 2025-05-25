@@ -237,7 +237,7 @@ Agora vamos ver algumas **operações com conjuntos** e como elas se aplicam ao 
 
 ---
 
-## 📘 Lição 5: Tipos de dados
+## 📘 Lição 6: Tipos de dados
 
 
 ## Nota pessoal:
@@ -249,6 +249,6 @@ Se você tambem está se sentindo assim, não se preocupe, tenho a esperança de
 
 Tudo fica mais simples depois que se mostra como é feito e acredito que a idéia até aque seja apenas ter um conhecimento teórico para nos preparar para o que ainda iremos ver e aplicar pela frente.
 
-Até o proximo módulo. Fúi!!! 💨
+Até o proximo módulo.
 
 (ainda em desespero...)
