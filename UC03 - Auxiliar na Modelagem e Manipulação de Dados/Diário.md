@@ -251,11 +251,52 @@ Agora vamos ver algumas **operações com conjuntos** e como elas se aplicam ao 
 
 **🧠 Aprendizado:**
 
+Ao programar, é preciso definir o tipo de dado que a variável ou operação irá receber. Isso porque dados de texto e dados numéricos são tratados de maneiras diferentes.
+Por exemplo: com texto, podemos fazer separação de sílabas, acentuação, etc. Com números, podemos realizar cálculos, equações e operações matemáticas.
+
+Por isso, as linguagens de programação são chamadas de "tipadas". Ou seja, cada variável deve ter um tipo definido: texto, número inteiro, decimal, entre outros.
+Não pense que é a "casa da mãe Joana" e que você pode jogar qualquer informação lá dentro. É preciso informar qual tipo de dado a variável espera receber.
+
+**Principais tipos de dados:**
+
+Na construção do banco de dados a escolha o tipo correto de dado é muito importante porque isso afetará:
+> O desempenho do sistema.
+> O espaço ocupado pelo banco no dados.
+> A precisão dos cáuculos 
+> Evitar erros e falhas na aplicação
+
+Aprenderemos agora um pouquinho sobre cada tipo.
+
+## Tipos numéricos:
+
+**SMALLINT:**  
+> Número inteiro de 16 bits (2 bytes).  
+> - Guarda números pequenos, tanto positivos quanto negativos.
+> - Serve para quando você tem certeza de que os valores não vão passar de algumas dezenas de mil.
+
+
+**INT ou INTEGER:**  
+> Número inteiro de 32 bits (4 bytes).  
+> - Usado para armazenar números inteiros em geral, como quantidade de itens, id de usuários, etc.
+> - Ideal para situações do dia a dia em que os valores podem variar bastante, mas sem exagero.
+
+**BIGINT:**  
+> Número inteiro de 64 bits (8 bytes).  
+> - Suporta números muito grandes (muito mesmo!).
+> - Indicado para aplicações que lidam com grandes volumes de dados ou contas muito extensas.
+> - Provavelmente você só vai usar se estiver desenvolvendo sistemas mais robustos ou específicos.
+
+**REAL:**  
+> Armazena números com casas decimais, como 3.14 ou 1.75.
+> Bom para quando você precisa de valores decimais, mas sem necessidade de alta precisão.
+
+**DECIMAL:**  
+> Número fracionário, assim como o **real**.
+> Mas você pode controlar exatamente quantas casas decimais quer usar. (Por issos os calculos passam a ser masi exatos)
+> Muito utilizado em cálculos financeiros, onde cada centavo faz diferença.
+
 
 ---
-
-
-
 
 ## Nota pessoal:
 Ufá!!! Esse módulo foi difícil, heim. Teve muitos termos dos quais não estou acostumado e tive que pesquisar bastante para compreender cada um dos conceitos apresentados e espero ter entendido tudo direitinho para compartilharcom você.
