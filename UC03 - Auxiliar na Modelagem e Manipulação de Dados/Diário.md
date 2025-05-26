@@ -342,6 +342,8 @@ Claramente, dados de tempo. Vejamos:
 **Time:**
 > É utilizado para armazenar horas (padrão americano HH:MM:SS, Por exemplo: 22:45:32)
 
+#
+
 ## 📅 23 de maio de 2025
 
 ### 📘 Lição 7: Integridade Referêncial:
@@ -350,6 +352,7 @@ Claramente, dados de tempo. Vejamos:
   Chave candidata (UK)
   Chave estrangeira (FK)
 - Mecanismos para integridade referencial
+
 
 **🧠 Aprendizado:**
 
@@ -394,9 +397,48 @@ Registro importantes se **perderia** e não apareceriam em buscas ou relatórios
 
 Na prática, surgiriam situações confusas como por exemplo, um produto sem uma empresa associada ou clientes que não receberam o que pediram.
 
-**Mecanismo para integridade referencial**
+**Mecanismo para integridade referencial:**
 
+São **regras** que garantem que os dados realacionados (por meio das chaves como já vimos) estejam sempre **corretos** e **consistentes**.
 
+Imagine que você tem uma tabela *cliente* e uma tabela *pedidos*.
+Na tabela *pedidos* tem um campo que liga cada pedido a um *cliente*
+
+Agora pense:
+
+1 - O que aconteceria se alguem tentasse criar um pedido para um cliente que **não existe**?
+2 - Ou **apagar** um cliente que ainda tem pedidos ligados a ele?
+
+Para isso que serve o **mecanismo para integridade referencial**. Eles impedem ou controlam essas situações.
+
+Esses **"mecanismos"** são:
+**Chave estrandeira (FK)** (como já vimos): Ela vai garantir que o registro dependente sempre esteja ligado a uma tabela no caso do exemplo, um cliente que realmente exista. Evitando a primeira situação.
+
+E na segunda situação?
+
+No SQL temos 4 opções:
+
+**Cascade:**
+- Apaga tudo junto.
+Se você apagar a tabela algum elemete (cliente) da tabela "cliente", os pedidos ligados a ele (pela FK), também serão apagadas.
+
+Viajando um puco na maionese, é como se o Cascade fosse um traficante com uma lista de nomes(as chaves estrangerias).
+Então ele diz: se eu preso, deduro todo mundo!
+Ai todo mundo vai preso mesmo, ou seja excluído
+
+kkk
+
+**Nenhuma ação (no action):**
+- Impede a exclusão.
+Ainda no exemplo de "cliente" e "pedidos", o *no action* irá impedir a exclusão do cliente se ele ainda tiver pedidos registrados.
+
+**Defina nulo (Set null):**
+- Remove o vinculo.
+Apaga o cliente e faz com que as chaves estrangeiras se tornem NULL(sem dono).
+
+**Conjunto padrão (set default):**
+- Define um valor padrão
+Em vez de NULL, o campo vira um valor padrão que você definiu antes.
 
 ---
 
