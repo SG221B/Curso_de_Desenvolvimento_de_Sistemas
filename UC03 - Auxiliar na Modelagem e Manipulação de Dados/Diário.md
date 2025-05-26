@@ -4,11 +4,11 @@
 
 ### Tópico: Modelagem Conceitual do Banco de Dados
 
-**Início do estudo em:**
-- Modelagem Conceitual do Banco de Dados
-- 15 de maio de 2025
-Fim:
-Ultima atualização
+## ℹ️ Informações
+
+- **Início do conteúdo:** 15 de maio de 2025  
+- **Data de conclusão:** (preencher quando concluir)  
+- **Última atualização do arquivo:** 26 de maio de 2025
 
 **📚 Conteúdo do Diário:**
 - [🗂️ Levantamento de dados](#-lição-1-levantamento-de-dados)
@@ -20,6 +20,10 @@ Ultima atualização
 - [🔒 Integridade referencial](#-lição-7-integridade-referêncial)
 
 ---
+
+#
+
+## 📅 15 de maio de 2025
 
 ### 📘 Lição 1: Levantamento de dados
 
