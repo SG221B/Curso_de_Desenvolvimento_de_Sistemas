@@ -281,7 +281,7 @@ Na construção do banco de dados a escolha do tipo correto de dado é muito imp
 
 Aprenderemos agora um pouco sobre cada tipo.
 
-## - Tipos numéricos:
+**Tipos numéricos:**
 
 **SMALLINT:**  
 > Número inteiro de 16 bits (2 bytes).  
@@ -309,7 +309,7 @@ Aprenderemos agora um pouco sobre cada tipo.
 > Mas você pode controlar exatamente quantas casas decimais quer usar. (Por issos os calculos passam a ser masi exatos)
 > Muito utilizado em cálculos financeiros, onde cada centavo faz diferença.
 
-## - Dados alfanuméricos
+**Dados alfanuméricos:**
 
 **CHAR:**
 > Faz alocação fixa da quantidade de caracteres a serem armazenados.
@@ -330,7 +330,7 @@ Já o **VARCHAR** é mais flexível: se a quantidade de espaço que você precis
 
 Agora vamos ver dois tipos de dados mais simples:
 
-## - Dados de Tempo:
+**Dados de Tempo:**
 
 Como o própio nome já diz, esse tipo armazenas dados de quê? Receita de bolo? Contatos de telefone?
 
@@ -345,8 +345,11 @@ Claramente, dados de tempo. Vejamos:
 ## 📅 23 de maio de 2025
 
 ### 📘 Lição 7: Integridade Referêncial:
-- 
-- 
+- Comportamento dos compos composto por chaves
+  Chave primária (PK)
+  Chave candidata (UK)
+  Chave estrangeira (FK)
+- Mecanismos para integridade referencial
 
 **🧠 Aprendizado:**
 
@@ -358,13 +361,13 @@ Isso evita que sejam inseridos dados errados ou desconectados. Para isso, os ban
 
 **Comportamento dos compos composto por chaves:**
 - **Chave primária (PK):**
-> Garante que os valores de uma coluna (ou conjunto de colunas) sejam **únicas**, ou seja, não se repetem.
+Garante que os valores de uma coluna (ou conjunto de colunas) sejam **únicas**, ou seja, não se repetem.
 
 - **Chave alternativa** ou **candidata (UK)**
-> é usado em colunas que tem valores únicos como CPF ou CNPJ, mas que não são a chave primária, mesmo assim podemos aplicar uma regra para que esses valores não se repitam, garantindo que cada um seja único na tabela.
+É usado em colunas que tem valores únicos como CPF ou CNPJ, mas que não são a chave primária, mesmo assim podemos aplicar uma regra para que esses valores não se repitam, garantindo que cada um seja único na tabela.
 
 - **Chave estrangeira (FK):**
-> é uma regra que faz com que uma coluna de uma tabela use valores *que já existem** em outra identificada com a chave primária. Isso serve para ligar as tabelas entre si e garantir que os dados sejam conectados corretamente.
+É uma regra que faz com que uma coluna de uma tabela use valores *que já existem** em outra identificada com a chave primária. Isso serve para ligar as tabelas entre si e garantir que os dados sejam conectados corretamente.
 
 Por exemplo:
 Tabela departamento utilizando chave primmária (PK):
@@ -373,7 +376,25 @@ Tabela departamento utilizando chave primmária (PK):
 Tabela funcionários utilizando chave estrangeira (FK):
 ![Tabela funcionários](./Recursos/chave-estrangeira-funcionarios.png)
 
+Na tabela departamento:
+- No campo **código** estão as chaves primárias.
 
+Na tabela funcionário:
+- O campo **ID* sãõ as chaves primárias
+- Enquanto que, no campo **código** estão as chaves estrangeiras (porque são originárias da tabela **departamento**, e estão fazendo menção a ela)
+
+**O que aconteceria se não existissem as regras da integridade referencial?**
+Boa pergunta. Vejamos:
+
+Sem a **integridade referêncial**, o banco de dados mostraria dados **errados**, pois ele estaria acessando tabelas que não deveria, uma vez que não há uma chave que o ajudasse a identificar e validar os dados.
+
+Dados **incompletos**, pelo mesmo motivo, sem uma chave para a validação e unificação dos dados ele não saberia onde está o que foi solicitado e não retornar nenhum dado.
+
+Registro importantes se **perderia** e não apareceriam em buscas ou relatórios.
+
+Na prática, surgiriam situações confusas como por exemplo, um produto sem uma empresa associada ou clientes que não receberam o que pediram.
+
+**Mecanismo para integridade referencial**
 
 
 
