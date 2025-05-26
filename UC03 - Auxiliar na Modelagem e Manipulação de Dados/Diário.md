@@ -267,7 +267,7 @@ Na construção do banco de dados a escolha o tipo correto de dado é muito impo
 
 Aprenderemos agora um pouquinho sobre cada tipo.
 
-## Tipos numéricos:
+## - Tipos numéricos:
 
 **SMALLINT:**  
 > Número inteiro de 16 bits (2 bytes).  
@@ -294,6 +294,30 @@ Aprenderemos agora um pouquinho sobre cada tipo.
 > Número fracionário, assim como o **real**.
 > Mas você pode controlar exatamente quantas casas decimais quer usar. (Por issos os calculos passam a ser masi exatos)
 > Muito utilizado em cálculos financeiros, onde cada centavo faz diferença.
+
+## - Dados alfanuméricos
+
+**CHAR:**
+> Faz alocação fixa da quantidade de caracteres a serem armazenados.
+Por exemplo, se você declarar um **CHAR(200)**, será reservado na memória um espaço para *200* caracteres.
+
+Se você atribuir a esse char(200) a palavra "João", ele ocupará 4 posições de caracter, mas como foi declarado 200 posições, aindá permanecerá as 196 posições vazias na memória. 
+
+**VARCHAR:**
+> É um tipo de dado que armazena caracter de quantidade variável. Assim como no caso do char, você irá declarar o varchar e atibuí a quantidade de caracteres esperados, por exemplo **VARCHAR(200)**. A diferença é que, no caso do *Varchar(200)* ele **não irá deixar reservado** na memória um espaço para 200 caracter, mas que ele **poderá receber** até 200 caracter. Entã se ocê atribuir a ele a palavra "João", ele ocupará 4 espaços assim como no CHAR, mas os espaços 196 restantes na memória continuará livre para outro uso, o que não acontece no caso do char.
+
+**📌 Resumindo:** O **CHAR** é mais sério e criteriozo. Se voce pediu 200, será 200 e problema teu se tu pediu masi que devia. Enquanto que o **VARCHAR** é mais flexivel, se a quantidade que espaço que vocÊ irá precisar estiver **dentro** do limite que você pediu ao declára-lo, nâo tem problema.
+
+Agora vamos ver dois tipos de dados mais simples:
+
+## - Dados de Tempo:
+
+**Date:**
+>
+
+**Time:**
+>
+
 
 
 ---
