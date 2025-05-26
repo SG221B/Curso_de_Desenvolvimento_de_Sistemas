@@ -5,12 +5,11 @@
 ### Tópico: Modelagem Conceitual do Banco de Dados
 
 ## ℹ️ Informações:
-
 - **Início do estudo:** 15 de maio de 2025  
 - **Data de conclusão:** (preencher ao concluir o conteúdo)  
 - **Última atualização:** 26 de maio de 2025
 
-**📚 Conteúdo do Diário:**
+## 📚 Conteúdo do Diário:
 - [🗂️ Levantamento de dados](#-lição-1-levantamento-de-dados)
 - [📝 Levantamento e Especificação de requisitos](#-lição-2-levantamento-e-especificação-de-requisitos)
 - [📖 Dicionário de dados](#-lição-3-dicionário-de-dados)
@@ -351,11 +350,28 @@ Claramente, dados de tempo. Vejamos:
 
 **🧠 Aprendizado:**
 
-A integridade de dados é uma regra do banco de dados que garante que os dados de uma tabela estejam corretamentes ligados aos dados de outa tabela.
+A integridade de dados é uma regra do banco de dados que garante que os dados de uma tabela **estejam corretamentes ligados** aos dados de outa tabela.
 
-Por exemplo, se uma tabela de pedidos **usa o código de um cliente**, esse código pprecisa exister na tabela de clientes.
+Por exemplo, se uma tabela de pedidos **usa o código de um cliente**, esse código **precisa existir** na tabela de clientes.
 
-Isso evita que sejam inseridos dadso errados ou desconectados. Para isso, os bancos de dados usam **chaves**(como chave primaria ou chave estrangeira), para fazer essa ligação e verificar se se os dados são válidos.
+Isso evita que sejam inseridos dados errados ou desconectados. Para isso, os bancos de dados usam **chaves**, para fazer essa ligação e verificar se os dados são válidos.
+
+**Comportamento dos compos composto por chaves:**
+- **Chave primária (PK):**
+> Garante que os valores de uma coluna (ou conjunto de colunas) sejam **únicas**, ou seja, não se repetem.
+
+- **Chave alternativa** ou **candidata (UK)**
+> é usado em colunas que tem valores únicos como CPF ou CNPJ, mas que não são a chave primária, mesmo assim podemos aplicar uma regra para que esses valores não se repitam, garantindo que cada um seja único na tabela.
+
+- **Chave estrangeira (FK):**
+> é uma regra que faz com que uma coluna de uma tabela use valores *que já existem** em outra identificada com a chave primária. Isso serve para ligar as tabelas entre si e garantir que os dados sejam conectados corretamente.
+
+Por exemplo:
+Tabela departamento utilizando chave primmária (PK):
+![Tabela departamento](./Recursos/chave-primaria-departamento.png)
+
+Tabela funcionários utilizando chave estrangeira (FK):
+![Tabela funcionários](./Recursos/chave-estrangeira-funcionarios.png)
 
 
 
