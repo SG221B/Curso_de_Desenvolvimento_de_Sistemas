@@ -347,30 +347,27 @@ Claramente, dados de tempo. Vejamos:
 ## 📅 23 de maio de 2025
 
 ### 📘 Lição 7: Integridade Referêncial:
-- Comportamento dos compos composto por chaves
-  Chave primária (PK)
-  Chave candidata (UK)
-  Chave estrangeira (FK)
+- Comportamento dos campos compostos por chaves:
+    Chave primária (PK), chave candidata (UK), chave estrangeira (FK)
 - Mecanismos para integridade referencial
-
 
 **🧠 Aprendizado:**
 
-A integridade de dados é uma regra do banco de dados que garante que os dados de uma tabela **estejam corretamentes ligados** aos dados de outa tabela.
+A integridade de dados é uma regra do banco de dados que garante que os dados de uma tabela **estejam corretamente ligados** aos dados de outra tabela.
 
 Por exemplo, se uma tabela de pedidos **usa o código de um cliente**, esse código **precisa existir** na tabela de clientes.
 
-Isso evita que sejam inseridos dados errados ou desconectados. Para isso, os bancos de dados usam **chaves**, para fazer essa ligação e verificar se os dados são válidos.
+Isso evita que sejam inseridos dados errados ou desconectados. Para isso, os bancos de dados usam **chaves** para fazer essa ligação e verificar se os dados são válidos.
 
 **Comportamento dos compos composto por chaves:**
 - **Chave primária (PK):**
-Garante que os valores de uma coluna (ou conjunto de colunas) sejam **únicas**, ou seja, não se repetem.
+Garante que os valores de uma coluna (ou conjunto de colunas) sejam **únicos**, ou seja, não se repitam.
 
 - **Chave alternativa** ou **candidata (UK)**
-É usado em colunas que tem valores únicos como CPF ou CNPJ, mas que não são a chave primária, mesmo assim podemos aplicar uma regra para que esses valores não se repitam, garantindo que cada um seja único na tabela.
+Usada em colunas que têm valores únicos, como CPF ou CNPJ, mas que não são a chave primária. Mesmo assim, aplicamos uma regra para que esses valores não se repitam, garantindo que cada um seja único na tabela.
 
 - **Chave estrangeira (FK):**
-É uma regra que faz com que uma coluna de uma tabela use valores *que já existem** em outra identificada com a chave primária. Isso serve para ligar as tabelas entre si e garantir que os dados sejam conectados corretamente.
+É uma regra que faz com que uma coluna de uma tabela use valores que **já existem** em outra (identificada pela chave primária). Isso serve para ligar as tabelas entre si e garantir que os dados estejam corretamente conectados.
 
 Por exemplo:
 Tabela departamento utilizando chave primmária (PK):
@@ -380,65 +377,65 @@ Tabela funcionários utilizando chave estrangeira (FK):
 ![Tabela funcionários](./Recursos/chave-estrangeira-funcionarios.png)
 
 Na tabela departamento:
-- No campo **código** estão as chaves primárias.
+- No campo **código** contém as chaves primárias.
 
 Na tabela funcionário:
-- O campo **ID* sãõ as chaves primárias
-- Enquanto que, no campo **código** estão as chaves estrangeiras (porque são originárias da tabela **departamento**, e estão fazendo menção a ela)
+- O campo **ID* é a chave primária.
+- O campo **código** é a chave estrangeira (porque faz referência a tabela **departamento**)
 
 **O que aconteceria se não existissem as regras da integridade referencial?**
 Boa pergunta. Vejamos:
 
-Sem a **integridade referêncial**, o banco de dados mostraria dados **errados**, pois ele estaria acessando tabelas que não deveria, uma vez que não há uma chave que o ajudasse a identificar e validar os dados.
+Sem a **integridade referencial**, o banco de dados poderia apresentar:
 
-Dados **incompletos**, pelo mesmo motivo, sem uma chave para a validação e unificação dos dados ele não saberia onde está o que foi solicitado e não retornar nenhum dado.
+- **Dados errados**, acessando tabelas que não deveria.
 
-Registro importantes se **perderia** e não apareceriam em buscas ou relatórios.
+- **Dados incompletos**, por não conseguir unir informações corretamente.
 
-Na prática, surgiriam situações confusas como por exemplo, um produto sem uma empresa associada ou clientes que não receberam o que pediram.
+- **Registros perdidos**, que não apareceriam em buscas ou relatórios.
+
+Na prática, surgiriam situações confusas, como produtos sem empresa associada ou pedidos sem cliente.
 
 **Mecanismo para integridade referencial:**
 
-São **regras** que garantem que os dados realacionados (por meio das chaves como já vimos) estejam sempre **corretos** e **consistentes**.
+São **regras** que garantem que os dados realacionados (por meio das chaves) estejam sempre **corretos** e **consistentes**.
 
-Imagine que você tem uma tabela *cliente* e uma tabela *pedidos*.
-Na tabela *pedidos* tem um campo que liga cada pedido a um *cliente*
+Imagine que você tem uma tabela *cliente* e uma tabela *pedidos* com um campo que liga cada pedido a um cliente
 
 Agora pense:
 
-1 - O que aconteceria se alguem tentasse criar um pedido para um cliente que **não existe**?
-2 - Ou **apagar** um cliente que ainda tem pedidos ligados a ele?
+1 - O que aconteceria se alguem tentasse criar um pedido para um cliente **que não existe**?
+2 - E se alguém tentar **apagar** um cliente que ainda tem pedidos ligados a ele?
 
 Para isso que serve o **mecanismo para integridade referencial**. Eles impedem ou controlam essas situações.
 
 Esses **"mecanismos"** são:
-**Chave estrandeira (FK)** (como já vimos): Ela vai garantir que o registro dependente sempre esteja ligado a uma tabela no caso do exemplo, um cliente que realmente exista. Evitando a primeira situação.
+**Chave estrandeira (FK)**:
+Garante que o registro dependente sempre esteja ligado a uma tabela válida. No exemplo, um pedido só é criado se o cliente existir.
 
-E na segunda situação?
+E na segunda situação? O que fazemos com os pedidos?
 
-No SQL temos 4 opções:
+No SQL, temos 4 opções:
 
 **Cascade:**
 - Apaga tudo junto.
-Se você apagar a tabela algum elemete (cliente) da tabela "cliente", os pedidos ligados a ele (pela FK), também serão apagadas.
+Se apagar um cliente, todos os pedidos ligados a ele também serão apagados.
 
-Viajando um puco na maionese, é como se o Cascade fosse um traficante com uma lista de nomes(as chaves estrangerias).
-Então ele diz: se eu preso, deduro todo mundo!
-Ai todo mundo vai preso mesmo, ou seja excluído
-
+Viajando um pouco na maionese: é como se o Cascade fosse um traficante com uma lista de nomes (as FKs).
+Então ele ameaça: 'se eu for preso, levo todo mundo comigo!'
 kkk
 
 **Nenhuma ação (no action):**
 - Impede a exclusão.
-Ainda no exemplo de "cliente" e "pedidos", o *no action* irá impedir a exclusão do cliente se ele ainda tiver pedidos registrados.
+O cliente não será apagado se ainda tiver pedidos registrados.
 
 **Defina nulo (Set null):**
 - Remove o vinculo.
-Apaga o cliente e faz com que as chaves estrangeiras se tornem NULL(sem dono).
+Apaga o cliente e transforma os pedidos em "sem dono" (NULL no campo de FK).
 
 **Conjunto padrão (set default):**
 - Define um valor padrão
-Em vez de NULL, o campo vira um valor padrão que você definiu antes.
+Em vez de NULL, define um valor padrão previamente definido.
 
 ---
 
