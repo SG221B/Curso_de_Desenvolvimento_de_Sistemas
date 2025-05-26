@@ -6,13 +6,18 @@
 
 **Início do estudo em:**
 - Modelagem Conceitual do Banco de Dados
+- 15 de maio de 2025
+Fim:
+Ultima atualização
 
-**Conteúdo a ser aprendido:**
-- Levantamento de dados  
-- Levantamento e especificação de requisitos
-- Dicionário de dados
-- Arquitetura de arquivos de dados
-- Integridade referencial
+**📚 Conteúdo do Diário:**
+- [🗂️ Levantamento de dados](#-lição-1-levantamento-de-dados)
+- [📝 Levantamento e Especificação de requisitos](#-lição-2-levantamento-e-especificação-de-requisitos)
+- [📖 Dicionário de dados](#-lição-3-dicionário-de-dados)
+- [🗄️ Arquitetura de arquivos](#-lição-4-arquitetura-de-arquivos-de-dados)
+- [📐 Teoria dos conjuntos](#-lição-5-teoria-dos-conjuntos)
+- [🔢 Tipos de dados](#-lição-6-tipos-de-dados)
+- [🔒 Integridade referencial](#-lição-7-integridade-referêncial)
 
 ---
 
@@ -114,7 +119,7 @@ Imagine uma entidade “consumidor”, com seus atributos. Em um dicionário de 
 
 ## 📅 20 de maio de 2025
 
-### Lição 4: Arquitetura de Arquivos de Dados
+### 📘 Lição 4: Arquitetura de Arquivos de Dados
 
 - Conhecer os mecanismos de armazenamento do MySQL (MyISAM e InnoDB)
 
@@ -244,10 +249,16 @@ Agora vamos ver algumas **operações com conjuntos** e como elas se aplicam ao 
 
 ---
 
-## 📘 Lição 6: Tipos de Dados
+## 📅 22 de maio de 2025
 
-- 
-- 
+### 📘 Lição 6: Tipos de Dados
+
+- Importância de escolher o tipo certo para cada situação
+- Tipos de dados mais comuns:
+   Númericos
+   Alfanuméricos
+   Temporais
+
 
 **🧠 Aprendizado:**
 
@@ -259,13 +270,13 @@ Não pense que é a "casa da mãe Joana" e que você pode jogar qualquer informa
 
 **Principais tipos de dados:**
 
-Na construção do banco de dados a escolha o tipo correto de dado é muito importante porque isso afetará:
+Na construção do banco de dados a escolha do tipo correto de dado é muito importante, porque isso afetará:
 > O desempenho do sistema.
 > O espaço ocupado pelo banco no dados.
 > A precisão dos cáuculos 
-> Evitar erros e falhas na aplicação
+> A prevenção de erros e falhas na aplicação
 
-Aprenderemos agora um pouquinho sobre cada tipo.
+Aprenderemos agora um pouco sobre cada tipo.
 
 ## - Tipos numéricos:
 
@@ -304,19 +315,45 @@ Por exemplo, se você declarar um **CHAR(200)**, será reservado na memória um 
 Se você atribuir a esse char(200) a palavra "João", ele ocupará 4 posições de caracter, mas como foi declarado 200 posições, aindá permanecerá as 196 posições vazias na memória. 
 
 **VARCHAR:**
-> É um tipo de dado que armazena caracter de quantidade variável. Assim como no caso do char, você irá declarar o varchar e atibuí a quantidade de caracteres esperados, por exemplo **VARCHAR(200)**. A diferença é que, no caso do *Varchar(200)* ele **não irá deixar reservado** na memória um espaço para 200 caracter, mas que ele **poderá receber** até 200 caracter. Entã se ocê atribuir a ele a palavra "João", ele ocupará 4 espaços assim como no CHAR, mas os espaços 196 restantes na memória continuará livre para outro uso, o que não acontece no caso do char.
+> É um tipo de dado que armazena caracter de quantidade variável.
+Assim como no caso do CHAR, você irá declarar o VARCHAR e atibuí a quantidade de caracteres esperados, por exemplo **VARCHAR(200)**.
+A diferença é que, no caso do *VARCHAR(200)*, ele **não irá deixar reservado** na memória um espaço para 200 caracter, mas que ele **poderá receber** até 200 caracter.
+Entã, se você atribuir a ele a palavra "João", ele ocupará 4 espaços, mas os 196 espaços restantes na memória continuarão livres para outro uso (o que não acontece no caso do char).
 
-**📌 Resumindo:** O **CHAR** é mais sério e criteriozo. Se voce pediu 200, será 200 e problema teu se tu pediu masi que devia. Enquanto que o **VARCHAR** é mais flexivel, se a quantidade que espaço que vocÊ irá precisar estiver **dentro** do limite que você pediu ao declára-lo, nâo tem problema.
+
+**📌 Resumindo:**
+O **CHAR** é mais sério e criterioso. Se você pediu 200, será 200 — e problema seu se pediu mais do que devia.
+Já o **VARCHAR** é mais flexível: se a quantidade de espaço que você precisar estiver dentro do limite que você declarou, não tem problema.
 
 Agora vamos ver dois tipos de dados mais simples:
 
 ## - Dados de Tempo:
 
+Como o própio nome já diz, esse tipo armazenas dados de quê? Receita de bolo? Contatos de telefone?
+
+Claramente, dados de tempo. Vejamos:
+
 **Date:**
->
+> É utilizado para armazenar datas (padrão americano AAAA-MM-DD, Por exemplo: 2025/05/22)
 
 **Time:**
->
+> É utilizado para armazenar horas (padrão americano HH:MM:SS, Por exemplo: 22:45:32)
+
+## 📅 23 de maio de 2025
+
+### 📘 Lição 7: Integridade Referêncial:
+- 
+- 
+
+**🧠 Aprendizado:**
+
+A integridade de dados é uma regra do banco de dados que garante que os dados de uma tabela estejam corretamentes ligados aos dados de outa tabela.
+
+Por exemplo, se uma tabela de pedidos **usa o código de um cliente**, esse código pprecisa exister na tabela de clientes.
+
+Isso evita que sejam inseridos dadso errados ou desconectados. Para isso, os bancos de dados usam **chaves**(como chave primaria ou chave estrangeira), para fazer essa ligação e verificar se se os dados são válidos.
+
+
 
 
 
