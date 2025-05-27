@@ -12,12 +12,12 @@
 
 ## 📚 Conteúdo do Módulo
 
-- [📌 Definição de dados]
-- [🧱 Criação de tabelas]  
-- [🧾 Colunas (NULL, DEFAULT, AUTO_INCREMENT, PRIMARY KEY)]
-- [🧬 Tipos de dados (numéricos, lógicos, textuais, binários, data e hora)]
-- [🔗 Chaves primárias e estrangeiras]
-- [📎 Link para exemplo prático (em construção)]
+- [📌 Definição de dados](#-lição-1-definição-de-dados)
+- [🧱 Criação de tabelas](#-lição-2-criação-de-tabelas)
+- [🧾 Colunas (NULL, DEFAULT, AUTO_INCREMENT, PRIMARY KEY)](#-lição-3-colunas)
+- [🧬 Tipos de dados (numéricos, lógicos, textuais, binários, data e hora)](#-lição-4-tipos-de-dados)
+- [🔗 Chaves primárias e estrangeiras](#-lição-5-chaves-primárias-e-estrangeiras)
+- [📎 Link para exemplo prático (em construção)](#-exemplo-prático)
 
 ---
 
@@ -72,7 +72,7 @@
 
 **🧠 Aprendizado:**
 
-🔢 Tipos Numéricos  
+**🔢 Tipos Numéricos**  
 *Aqui*
 
 **⚙️ Tipos Lógicos**
@@ -91,19 +91,19 @@
 
 ## 📘 Lição 5: Chaves Primárias e Estrangeiras
 
-### 🔑 Definindo Chave Primária  
+**🔑 Definindo Chave Primária**
 *Aqui*
 
-### 🔗 Definindo Chave Estrangeira  
+**🔗 Definindo Chave Estrangeira**
 *Aqui*
 
-### 🔁 Relacionamento 1:1  
+**🔁 Relacionamento 1:1**  
 *Aqui*
 
-### 🔄 Relacionamento 1:N  
+**🔄 Relacionamento 1:N**
 *Aqui*
 
-### 🔃 Relacionamento N:N  
+**🔃 Relacionamento N:N** 
 *Aqui*
 
 ---
