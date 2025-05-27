@@ -83,7 +83,8 @@ Depois de coletadas as informações, é hora de **especificar os requisitos**. 
 
 Isso ajuda todo mundo a falar a mesma língua, evitar confusão e tudo terminar no casos de familía.
 
-![Casos de família](./Imagens/UC03%20-%20meme_casos_de_familia.png)
+![Casos de família]()
+<img src="./Imagens/UC03%20-%20meme_casos_de_familia.png" alt="Descrição" width="100"/>
 
 ---
 
