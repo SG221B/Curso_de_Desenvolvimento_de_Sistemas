@@ -4,12 +4,12 @@
 
 ### Tópico: Modelagem Conceitual do Banco de Dados
 
-## ℹ️ Informações:
+## ℹ️ Informações
 - **Início do estudo:** 15 de maio de 2025  
 - **Data de conclusão:** (preencher ao concluir o conteúdo)  
 - **Última atualização:** 26 de maio de 2025
 
-## 📚 Conteúdo do Diário:
+## 📚 Conteúdo do Diário
 - [🗂️ Levantamento de dados](#-lição-1-levantamento-de-dados)
 - [📝 Levantamento e Especificação de requisitos](#-lição-2-levantamento-e-especificação-de-requisitos)
 - [📖 Dicionário de dados](#-lição-3-dicionário-de-dados)
@@ -79,7 +79,7 @@ Para evitar que isso aconteça no seu projeto, é realizado o **levantamento e e
 
 É para isso que utilizamos as **técnicas de levantamento de dados** que estudamos no dia 17/05, como observação, entrevista e questionário.
 
-Depois de coletado as informações, é hora de **especificar os requisitos**. Ou seja, colocar tudo no papel de forma clara e organizada sobre o que será feito, e **compartilhar com os membros da equipe** para garantir que todos (isso inclui o cliente, tá?) compreendam e concordem com o que será desenvolvido.
+Depois de coletadas as informações, é hora de **especificar os requisitos**. Ou seja, colocar tudo no papel de forma clara e organizada sobre o que será feito, e **compartilhar com os membros da equipe** para garantir que todos (isso inclui o cliente, tá?) compreendam e concordem com o que será desenvolvido.
 
 Isso ajuda todo mundo a falar a mesma língua, evitar confusão e tudo acabar no casos de familía.
 
@@ -252,6 +252,8 @@ Agora vamos ver algumas **operações com conjuntos** e como elas se aplicam ao 
 
 ---
 
+#
+
 ## 📅 22 de maio de 2025
 
 ### 📘 Lição 6: Tipos de Dados
@@ -346,7 +348,7 @@ Claramente, dados de tempo. Vejamos:
 
 ## 📅 23 de maio de 2025
 
-### 📘 Lição 7: Integridade Referêncial:
+### 📘 Lição 7: Integridade Referêncial
 - Comportamento dos campos compostos por chaves:
     Chave primária (PK), chave candidata (UK), chave estrangeira (FK)
 - Mecanismos para integridade referencial
@@ -359,7 +361,7 @@ Por exemplo, se uma tabela de pedidos **usa o código de um cliente**, esse cód
 
 Isso evita que sejam inseridos dados errados ou desconectados. Para isso, os bancos de dados usam **chaves** para fazer essa ligação e verificar se os dados são válidos.
 
-**Comportamento dos compos composto por chaves:**
+**Comportamento dos campos compostos por chaves:**
 - **Chave primária (PK):**
 Garante que os valores de uma coluna (ou conjunto de colunas) sejam **únicos**, ou seja, não se repitam.
 
@@ -398,7 +400,7 @@ Na prática, surgiriam situações confusas, como produtos sem empresa associada
 
 **Mecanismo para integridade referencial:**
 
-São **regras** que garantem que os dados realacionados (por meio das chaves) estejam sempre **corretos** e **consistentes**.
+São **regras** que garantem que os dados relacionados (por meio das chaves) estejam sempre **corretos** e **consistentes**.
 
 Imagine que você tem uma tabela *cliente* e uma tabela *pedidos* com um campo que liga cada pedido a um cliente
 
@@ -439,8 +441,8 @@ Em vez de NULL, define um valor padrão previamente definido.
 
 ---
 
-## Nota pessoal:
-Ufá!!! Esse módulo foi difícil, heim. Teve muitos termos dos quais não estou acostumado e tive que pesquisar bastante para compreender cada um dos conceitos apresentados e espero ter entendido tudo direitinho para compartilharcom você.
+> 📝 **Nota pessoal:**
+Ufá!!! Esse módulo foi desafiador, heim. Teve muitos termos dos quais não estou acostumado e tive que pesquisar bastante para compreender cada um dos conceitos apresentados e espero ter entendido tudo direitinho para compartilharcom você.
 
 Se você tambem está se sentindo assim, não se preocupe, tenho a esperança de que tudo irá ficar mais claro conforme formos aplicando esses conceitos **na prática** assim espero (desespero).
 
