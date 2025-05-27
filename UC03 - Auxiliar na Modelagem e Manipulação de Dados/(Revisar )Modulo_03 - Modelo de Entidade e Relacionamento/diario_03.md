@@ -1,3 +1,7 @@
+> ⚠️ **Nota:** Este módulo ainda está em fase de revisão.  
+> Comecei a documentar meu progresso após o início do curso, por isso alguns conteúdos podem estar ausentes ou incompletos.
+Estou atualizando tudo conforme concilio os estudos com o projeto.
+
 #
 
 ## 📅 00 de maio de 2025
