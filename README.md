@@ -66,7 +66,7 @@ Minha intenção é manter transparência e responsabilidade no uso da inteligê
 
 ---
 
-👤 Sobre mim
+## 👤 Sobre mim
 Me chamo Luis Fernando. Estou cursando Técnico em Desenvolvimento de Sistemas na modalidade EAD pela isntituição SENAC. Gosto de aprender, organizar conhecimento e quero evoluir na área de tecnologia.
 Meu objetivo é alcançar a carreira de programador beck-end
 
