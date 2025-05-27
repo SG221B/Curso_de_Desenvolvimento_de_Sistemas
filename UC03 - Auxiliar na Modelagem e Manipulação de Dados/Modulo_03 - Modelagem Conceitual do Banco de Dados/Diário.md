@@ -6,8 +6,8 @@
 
 ## ℹ️ Informações
 - **Início do estudo:** 15 de maio de 2025  
-- **Data de conclusão:** (preencher ao concluir o conteúdo)  
-- **Última atualização:** 26 de maio de 2025
+- **Data de conclusão:** 26 de maio de 2025 
+- **Última atualização:** 27 de maio de 2025
 
 ## 📚 Conteúdo do Diário
 - [🗂️ Levantamento de dados](#-lição-1-levantamento-de-dados)
@@ -81,11 +81,9 @@ Para evitar que isso aconteça no seu projeto, é realizado o **levantamento e e
 
 Depois de coletadas as informações, é hora de **especificar os requisitos**. Ou seja, colocar tudo no papel de forma clara e organizada sobre o que será feito, e **compartilhar com os membros da equipe** para garantir que todos (isso inclui o cliente, tá?) compreendam e concordem com o que será desenvolvido.
 
-Isso ajuda todo mundo a falar a mesma língua, evitar confusão e tudo acabar no casos de familía.
+Isso ajuda todo mundo a falar a mesma língua, evitar confusão e tudo terminar no casos de familía.
 
-<div align="center">
-  <img src="./Recursos/UC03 - meme_casos_de_familia.png" alt="casos_de_familia" width="300px">
-</div>
+![Casos de família](./Imagens/UC03%20-%20meme_casos_de_familia.png)
 
 ---
 
@@ -114,9 +112,7 @@ Sem um dicionário de dados, se as informações forem entregues apenas em uma p
 **Exemplo de Dicionário de dados:**
 Imagine uma entidade “consumidor”, com seus atributos. Em um dicionário de dados ficaria assim:
 
-<div align="center">
-  <img src="./Recursos/UC03 - exemplo_de_dicionario_de_dados.png" alt="Dicionário de Dados">
-</div>
+![Exemplo](./Imagens/UC03%20-%20exemplo_de_dicionario_de_dados.png)
 
 #
 
@@ -226,29 +222,30 @@ Agora vamos ver algumas **operações com conjuntos** e como elas se aplicam ao 
 
 **União:**
 > Como o póprio nome já diz, essa operação irá *unir* os elementos dos conjuntos:
-![União](./Recursos/uniao-tab1.png)
+
+![União](./Imagens/uniao-tab1.png)
 
 > Ao aplicar a união, o resultado seria:
 
-![Resultado](./Recursos/uniao-resultado.png)
+![Resultado](./Imagens/uniao-resultado.png)
 
 **Intersessão:**
 > Essa operação irá selecionar somente os elementos **iguais** presentes nas duas tabelas. Veja só:
 
-![Intersessão](./Recursos/intersessao-tab1.png)
+![Intersessão](./Imagens/intersessao-tab1.png)
 
 > Resultado:
 
-![Resultado](./Recursos/intersessao-resultado.png)
+![Resultado](./Imagens/intersessao-resultado.png)
 
 **Diferença:**
 > Dessa vez, a operação irá selecionar os elementos que são **diferentes** nas tabelas:
 
-![Diferença](./Recursos/diferença-tabela1.png)
+![Diferença](./Imagens/diferença-tabela1.png)
 
 > Resultado:
 
-![Resultado](./Recursos/diferença-tabela2.png)
+![Resultado](./Imagens/diferença-tabela2.png)
 
 ---
 
@@ -373,10 +370,10 @@ Usada em colunas que têm valores únicos, como CPF ou CNPJ, mas que não são a
 
 Por exemplo:
 Tabela departamento utilizando chave primmária (PK):
-![Tabela departamento](./Recursos/chave-primaria-departamento.png)
+![Tabela departamento](./Imagens/chave-primaria-departamento.png)
 
 Tabela funcionários utilizando chave estrangeira (FK):
-![Tabela funcionários](./Recursos/chave-estrangeira-funcionarios.png)
+![Tabela funcionários](./Imagens/chave-estrangeira-funcionarios.png)
 
 Na tabela departamento:
 - No campo **código** contém as chaves primárias.
