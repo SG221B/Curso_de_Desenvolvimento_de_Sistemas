@@ -21,6 +21,9 @@
 > Esta lição aborda o histórico da linguagem SQL. Como é um conteúdo mais factual e direto, optei por apenas registrar as informações pesquisadas, sem reformulações pessoais ou comentários adicionais.  
 > Por isso, substituí a seção habitual "🧠 Aprendizado" por "📄 Conteúdo", que neste caso será composto por trechos copiados e colados diretamente das fontes de estudo.
 
+> 🧾 **Fonte do conteúdo:**  
+> Material didático do curso técnico em Desenvolvimento de Sistemas — Senac.
+
 
 ## 📘 Lição 1: Histórico e definição
 
