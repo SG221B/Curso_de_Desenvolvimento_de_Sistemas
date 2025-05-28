@@ -1,36 +1,28 @@
-# 📘 Diário de Estudos em Desenvolvimento de Sistemas
+# 📘 Diário de Estudos — Desenvolvimento de Sistemas
 
 Bem-vindo ao meu diário de estudos do curso técnico de Desenvolvimento de Sistemas!  
 Aqui documento minha jornada de aprendizado, com anotações, reflexões, resumos e exemplos práticos organizados por unidade curricular.
 
-![Última atualização](https://img.shields.io/github/last-commit/lf-gomes/LF-gomes)
-![License](https://img.shields.io/github/license/lf-gomes/LF-gomes)
-![Visualizações](https://komarev.com/ghpvc/?username=lf-gomes)
-![Tamanho](https://img.shields.io/github/repo-size/lf-gomes/LF-gomes)
+---
+
+## 📚 Unidades e Módulos
+
+### 📁 UC03 – Auxiliar na Modelagem e Manipulação de Dados
+- [Módulo 01 – Modelagem Conceitual](./UC03.../Modulo01/diario_01.md) ✅`
+- `[Módulo 02 – Entidade e Relacionamento - (Revisar)](./UC03.../Modulo02/diario_02.md) 🕓`
+- [Módulo 03 – Linguagem SQL](./UC03.../Modulo03/diario_03.md) ✅
+- [Módulo 04 – Definições de Dados](./UC03.../Modulo04/diario_04.md) ✅
+- `[Módulo 05 – Em andamento](#) 🕓`
+
+> 📌 Novas UCs serão adicionadas conforme avanço no curso.
 
 ---
 
-## 📑 Índice
+## 🎯 Objetivos
 
-- [📌 Sobre o Projeto](#-sobre-o-projeto)
-- [🎯 Objetivo](#-objetivo)
-- [🧠 Como eu estudo](#-como-eu-estudo)
-- [🤖 Uso do ChatGPT](#-uso-do-chatgpt)
-- [📂 Estrutura do repositório](#-estrutura-do-repositório)
-- [👤 Sobre mim](#-sobre-mim)
-- [📬 Contato](#-contato)
-
----
-
-## 📌 Sobre o Projeto
-
-Este repositório contém registros semanais de estudo do curso técnico, com foco em lógica de programação, banco de dados, fundamentos da computação e outros temas da área de tecnologia.
-
----
-
-## 🎯 Objetivo
-
-Registrar de forma simples e organizada o progresso dos estudos, reforçar o aprendizado e facilitar a revisão futura.
+- Documentar o aprendizado de forma clara e contínua  
+- Desenvolver habilidades com Markdown, Git e organização técnica  
+- Criar um material útil para revisão e também para outros estudantes
 
 ---
 
@@ -53,31 +45,18 @@ Minha intenção é manter transparência e responsabilidade no uso da inteligê
 
 ---
 
-## 📂 Estrutura do repositório
-
-- `UC01 - (revisar...)`  
-  Contém materiais, anotações e diário referentes à primeira unidade curricular.
-
-- `UC02 - (revisar...)`  
-  ...
-
-- `UC03 - Auxiliar na Modelagem e Manipulação de Dados`  
-  Aqui estão os conteúdos relacionados à modelagem e manipulação de dados.
-
----
-
-## 👤 Sobre mim
+## 👨‍💻 Sobre mim
 Me chamo Luis Fernando. Estou cursando Técnico em Desenvolvimento de Sistemas na modalidade EAD pela isntituição SENAC. Gosto de aprender, organizar conhecimento e quero evoluir na área de tecnologia.
 Meu objetivo é alcançar a carreira de programador beck-end
+Tenho interesse em crescer na área de tecnologia comoprogramador back-end
 
 ---
 
 ## 📬 Contato
 
-Caso queira conversar, tirar dúvidas ou colaborar, estou aberto a trocas!  
-Você pode me encontrar em:  
 - contactluisfernandosg@gmail.com
 
 ---
 
-Obrigado pela visita e acompanhe meu desenvolvimento! 🚀
+> 🚀 Obrigado por visitar! Se este conteúdo te ajudar, me avise — ficarei feliz em saber disso.
+
