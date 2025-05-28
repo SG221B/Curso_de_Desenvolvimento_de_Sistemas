@@ -9,10 +9,10 @@ Aqui documento minha jornada de aprendizado, com anotações, reflexões, resumo
 
 ### 📁 UC03 – Auxiliar na Modelagem e Manipulação de Dados
 - [Módulo 01 – Modelagem Conceitual](./UC03.../Modulo01/diario_01.md) ✅`
-- `[Módulo 02 – Entidade e Relacionamento - (Revisar)]🕓`(./UC03.../Modulo02/diario_02.md)
+- [Módulo 02 – Entidade e Relacionamento - (Revisar)](#) 🕓
 - [Módulo 03 – Linguagem SQL](./UC03.../Modulo03/diario_03.md) ✅
 - [Módulo 04 – Definições de Dados](./UC03.../Modulo04/diario_04.md) ✅
-- `[Módulo 05 – Em andamento](#) 🕓`
+- [Módulo 05 – Em andamento](#) 🕓
 
 > 📌 Novas UCs serão adicionadas conforme avanço no curso.
 
