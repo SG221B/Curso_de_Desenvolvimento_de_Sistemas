@@ -8,11 +8,10 @@ Aqui documento minha jornada de aprendizado, com anotações, reflexões, resumo
 ## 📚 Unidades e Módulos
 
 ### 📁 UC03 – Auxiliar na Modelagem e Manipulação de Dados
-- [Módulo 01 – Modelagem Conceitual](./UC03.../Modulo01/diario_01.md) ✅`
-- [Módulo 02 – Entidade e Relacionamento - (Revisar)](#) 🕓
-- [Módulo 03 – Linguagem SQL](./UC03.../Modulo03/diario_03.md) ✅
-- [Módulo 04 – Definições de Dados](./UC03.../Modulo04/diario_04.md) ✅
-- [Módulo 05 – Em andamento](#) 🕓
+- [Módulo 02 – Modelagem Conceitual](./UC03%20-%20Auxiliar%20na%20Modelagem%20e%20Manipulação%20de%20Dados/Modulo_02%20-%20Modelagem%20Conceitual%20do%20Banco%20de%20Dados/diario_02.md) ✅`
+- [Módulo 03 – Entidade e Relacionamento - (Revisar)](#) 🕓
+- [Módulo 04 – Linguagem SQL](./UC03%20-%20Auxiliar%20na%20Modelagem%20e%20Manipulação%20de%20Dados/Modulo_04%20-%20Linguagem%20SQL/diario_4.md) ✅
+- [Módulo 05 – Definições de Dados](./UC03%20-%20Auxiliar%20na%20Modelagem%20e%20Manipulação%20de%20Dados/Modulo_05%20-%20Definição%20de%20Dados/diario_05.md) ✅
 
 > 📌 Novas UCs serão adicionadas conforme avanço no curso.
 
