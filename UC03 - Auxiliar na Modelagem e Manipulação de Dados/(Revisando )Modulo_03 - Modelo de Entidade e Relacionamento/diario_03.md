@@ -29,6 +29,8 @@
 
 **🧠 Aprendizado:**  
 
+A primeira etapa do projeto de banco de
+
 ### 🔷 Entidade  
 
 ### 🔗 Relacionamento  
@@ -91,3 +93,9 @@
 
 **🧠 Aprendizado:**  
 
+
+Nota pessoal:
+No início, me assustei um pouco 😅
+Pesquisando por fora, percebi que é mais simples do que parecia.
+**Dica pessoal:** Sempre façam pesquisas complementares!  
+Um vídeo curto no YouTube pode esclarecer algo que não ficou claro no material principal.
