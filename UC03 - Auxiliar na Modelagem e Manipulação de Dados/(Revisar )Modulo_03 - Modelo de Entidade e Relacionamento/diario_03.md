@@ -6,9 +6,9 @@
 
 ## ℹ️ Informações
 
-- **Início do estudo:** [preencher]  
+- **Início do estudo:** 31 de maio de 2025
 - **Data de conclusão:** (preencher ao concluir o conteúdo)  
-- **Última atualização:** [preencher ou deixar em branco]
+- **Última atualização:** 31 de maio de 2025
 
 ## 📚 Conteúdo do Módulo
 
@@ -21,10 +21,11 @@
 
 ---
 
-## 📘 Lição 1 – Conceitos: Entidade, Relacionamento e Autorelacionamento
+## 📘 Lição 1 – Conceitos
 
--
--
+- Entidade
+- Relacionamento
+- Autorelaconamento
 
 **🧠 Aprendizado:**  
 
@@ -45,7 +46,7 @@
 **🧠 Aprendizado:**  
 
 ### 📏 Cardinalidade Máxima  
-*Aqui*
+
 
 ---
 
