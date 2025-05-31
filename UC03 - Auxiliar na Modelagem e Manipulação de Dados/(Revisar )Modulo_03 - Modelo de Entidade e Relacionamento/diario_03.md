@@ -1,35 +1,92 @@
-> ⚠️ **Nota:** Este módulo ainda está em fase de revisão.  
-> Comecei a documentar meu progresso após o início do curso, por isso alguns conteúdos podem estar ausentes ou incompletos.
-Estou atualizando tudo conforme concilio os estudos com o projeto.
+# Diário de Estudos — UC03
 
-#
-
-## 📅 00 de maio de 2025
+## 📅 [Data que iniciar o módulo]
 
 ### Tópico: Modelo de Entidade e Relacionamento
 
-**Início do estudo em:**
-- Modelo de entidade e relacionamento
+## ℹ️ Informações
 
-**Conteúdo a ser aprendido:**
-- Entidades  
-- Atributos  
-- Chave primária e estrangeira  
-- Relacionamentos  
+- **Início do estudo:** [preencher]  
+- **Data de conclusão:** (preencher ao concluir o conteúdo)  
+- **Última atualização:** [preencher ou deixar em branco]
 
-**Impressão inicial:**  
-Banco de dados me parece ser uma coisa bem bacana. Gosto da ideia de manipular, organizar e facilitar o acesso a vários dados.
+## 📚 Conteúdo do Módulo
 
-**Vamos que vamos!**
+- [📘 Lição 1 – Conceitos: Entidade, Relacionamento e Autorelacionamento](#-lição-1--conceitos-entidade-relacionamento-e-autorelacionamento)
+- [📘 Lição 2 – Cardinalidade em Relacionamentos](#-lição-2--cardinalidade-em-relacionamentos)
+- [📘 Lição 3 – Relacionamento Binário](#-lição-3--relacionamento-binário)
+- [📘 Lição 4 – Relacionamento Ternário](#-lição-4--relacionamento-ternário)
+- [📘 Lição 5 – Atributo](#-lição-5--atributo)
+- [📘 Lição 6 – Identificadores](#-lição-6--identificadores)
 
 ---
 
-### 📘 Lição 1: Relacionamentos Ternários
+## 📘 Lição 1 – Conceitos: Entidade, Relacionamento e Autorelacionamento
 
-- No início, me assustei um pouco 😅
-- Pesquisando por fora, percebi que é mais simples do que parecia.
-- **Dica pessoal:** Sempre façam pesquisas complementares!  
-- Um vídeo curto no YouTube pode esclarecer algo que não ficou claro no material principal.
+-
+-
 
-**Resumo do aprendizado:**
-> 
+**🧠 Aprendizado:**  
+
+### 🔷 Entidade  
+
+### 🔗 Relacionamento  
+
+### 🔁 Autorelacionamento  
+
+
+---
+
+## 📘 Lição 2 – Cardinalidade em Relacionamentos
+
+-
+-
+
+**🧠 Aprendizado:**  
+
+### 📏 Cardinalidade Máxima  
+*Aqui*
+
+---
+
+## 📘 Lição 3 – Relacionamento Binário
+
+-
+-
+
+**🧠 Aprendizado:**
+
+### 🧮 Classificação dos Relacionamentos Binários  
+- 1:1  
+- 1:N  
+- N:N  
+
+---
+
+## 📘 Lição 4 – Relacionamento Ternário
+
+-
+-
+
+**🧠 Aprendizado:**  
+
+
+---
+
+## 📘 Lição 5 – Atributo
+
+-
+-
+
+**🧠 Aprendizado:**  
+
+
+---
+
+## 📘 Lição 6 – Identificadores
+
+-
+-
+
+**🧠 Aprendizado:**  
+
