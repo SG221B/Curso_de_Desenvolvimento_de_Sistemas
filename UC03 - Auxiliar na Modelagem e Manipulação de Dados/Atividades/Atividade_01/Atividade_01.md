@@ -9,9 +9,9 @@ Desenvolver, utilizando a interface do **MySQL Workbench**, um **Diagrama Entida
 
 ## 📚 Dica de Leitura
 
-- [Banco de Dados]
+- [Banco de Dados] (A desenvolver)
 - [Modelagem conceitual de banco de dados](/UC03%20-%20Auxiliar%20na%20Modelagem%20e%20Manipulação%20de%20Dados/Modulo_02%20-%20Modelagem%20Conceitual%20do%20Banco%20de%20Dados/diario_02.md)
-- [Modelo de entidade e relacionamento]()
+- [Modelo de entidade e relacionamento](/UC03%20-%20Auxiliar%20na%20Modelagem%20e%20Manipulação%20de%20Dados/(Revisando%20)Modulo_03%20-%20Modelo%20de%20Entidade%20e%20Relacionamento/diario_03.md)
 
 ---
 
@@ -67,15 +67,15 @@ As informações fornecidas são:
 
 ---
 
-## 🖥️ Desenvolvimento
+## 🧩 Meu trabalho
 
-📍 *Descreva aqui as decisões que você tomou para montar o diagrama, justificativas de modelagem e observações importantes.*
+![Atividade_01](/UC03%20-%20Auxiliar%20na%20Modelagem%20e%20Manipulação%20de%20Dados/Atividades/Atividade_01/Atividade01_DER.png)
 
 ---
 
-## 🧩 Resultado
+## 🖥️ Avaliação do Tutor
 
-📷 *Adicione uma imagem do seu diagrama exportado do MySQL Workbench (DER).*
+(Aguardando resposta)
 
 ---
 
