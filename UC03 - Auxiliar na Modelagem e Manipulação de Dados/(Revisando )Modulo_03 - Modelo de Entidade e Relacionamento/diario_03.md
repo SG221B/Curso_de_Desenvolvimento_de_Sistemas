@@ -21,15 +21,30 @@
 
 ---
 
-## 📘 Lição 1 – Conceitos
+## 📘 Lição 1 – Modelo de Entidade e Relacionamento: conceitos
 
-- Entidade
-- Relacionamento
-- Autorelaconamento
+- Conceitos de modelagem entidade e relacionamento
+   Atributos,
+   Chave primária
+   Chave estrangeira
+   Generalização/especialização.
 
 **🧠 Aprendizado:**  
 
-A primeira etapa do projeto de banco de
+A primeira etapa do projeto de um banco de dados é a construção de um **modelo conceitual**.
+O objetivo é estabelecer uma descrição objetiva dos dados a serem organizados, independentemente da implementação ou tecnologia.
+
+Para exemplificar, é como na construção de uma casa: antes de iniciar a obra, você solicita a um engenheiro que faça ou desenhe a planta da casa. Depois de pronta, essa planta é repassada aos responsáveis pela construção, para que saibam exatamente o que deve ser feito, não é assim?
+
+Definir e até desenhar o que será construído **antes** é melhor do que começar a construir e, só então, durante a obra, decidir onde e como será cada cômodo, não é verdade?
+
+O mesmo ocorre na construção de um banco de dados.
+
+Para isso, utilizamos o modelo de entidade e relacionamento (ER), que é a técnica mais usada para modelagem conceitual porque utiliza diagramas fáceis de entender (DER).
+
+Esses diagramas são como a planta do nosso banco de dados.
+
+Vamos agora aos conceitos:
 
 ### 🔷 Entidade  
 

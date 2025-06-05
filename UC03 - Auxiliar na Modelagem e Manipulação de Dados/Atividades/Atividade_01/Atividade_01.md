@@ -10,8 +10,8 @@ Desenvolver, utilizando a interface do **MySQL Workbench**, um **Diagrama Entida
 ## 📚 Dica de Leitura
 
 - [Banco de Dados]
-- [Modelagem conceitual de banco de dados](#)
-- [Modelo de entidade e relacionamento](#)
+- [Modelagem conceitual de banco de dados](/UC03%20-%20Auxiliar%20na%20Modelagem%20e%20Manipulação%20de%20Dados/Modulo_02%20-%20Modelagem%20Conceitual%20do%20Banco%20de%20Dados/diario_02.md)
+- [Modelo de entidade e relacionamento]()
 
 ---
 
