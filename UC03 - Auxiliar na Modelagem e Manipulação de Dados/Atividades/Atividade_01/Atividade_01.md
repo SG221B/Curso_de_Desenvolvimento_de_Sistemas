@@ -27,7 +27,7 @@ Planejar a estrutura de um banco de dados relacional para suportar operações d
 
 ## 🖥️ Avaliação do Tutor
 
-(Aguardando resposta)
+Resultado: A
 
 ---
 
