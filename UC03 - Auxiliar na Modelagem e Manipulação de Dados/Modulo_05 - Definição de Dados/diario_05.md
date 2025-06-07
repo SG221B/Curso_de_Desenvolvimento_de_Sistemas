@@ -6,9 +6,9 @@
 
 ## ℹ️ Informações
 
-- **Início do estudo:** [preencher]  
+- **Início do estudo:** 06/06/2025  
 - **Data de conclusão:** (preencher ao concluir o conteúdo)  
-- **Última atualização:** [preencher ou deixar em branco]
+- **Última atualização:** 06/06/2025
 
 ## 📚 Conteúdo do Módulo
 
@@ -27,7 +27,19 @@
 -
 
 **🧠 Aprendizado:**  
-*Aqui*
+Na computação, **dados** são todas as informações que podem ser lidas, transferidas e processadas, como textos, imagens, vídeos e etc.
+
+Todos esse dados precisam ser armazenados, ou seja, guardados de alguma maneira para que depois possam ser acessados, certo?
+
+Como você já deve saber, todo dado computacional é representado por "0" e "1" (bits).
+
+Os bancos de dados surgiram para facilitar o acesso a esses dados de forma fácil, rápida e confiável.
+
+Os bits possuem sua própria unidade de medida, veja:
+
+(Imagem do curso)
+
+Os dados armazenados com o nosso querido SQL, são armazenados em tabelas(como se fosse um excel), e são de tipos variados como texto, números, datas, valores booleanos e etc.
 
 ---
 
@@ -37,7 +49,20 @@
 -
 
 **🧠 Aprendizado:**  
-*Aqui*
+Lição 2: Criação de tabelas
+
+Devido a seu sua versabilidade, custo e velocidade, os bancos de dados são amplamente usados para armazenar informações.
+
+Imagine por exemplo um Banco, como o Banco do brasil. O baco armazena dinheiro e o administra, correto? Com o banco de ddos é o mesmo.
+
+
+Vamos ver agora como CRIAR essas famosas tabelas em que serão armazenados nossos preciosos dados.
+
+Para isso, vamos utilizar a ferramenta **MySQL Workbench**
+
+Para aprender a instala-lo veja o conteúdo em:
+link para conteúdo.
+![]()
 
 ---
 
