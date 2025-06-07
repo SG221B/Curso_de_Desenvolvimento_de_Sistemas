@@ -85,7 +85,7 @@ Para criar uma nova base de dados, primeiramente abra o **MySQL Workbench** e co
 
 Só dá um duplo click na area marcada na imagem:
 
-[Ferramenta](./Imagens/MySQL%20Workbench.png)
+![Ferramenta](./Imagens/MySQL%20Workbench.png)
 
 Neste momento, voce se conectou ao servidor local, mas não há nenhum banco de dados criado ainda. Vamos fazer isso agora.
 
@@ -102,14 +102,14 @@ CREATE DATABASE farmacia;
 ```
 Veja a imagem:
 
-[CREATE DATABASE](./Imagens/CREATE.png)
+![CREATE DATABASE](./Imagens/CREATE.png)
 
 Para executar o comando e criar seu primeiro banco de dados, basta clicar em ![ícone](./Imagens/executar.png).
 
 A opção ![ícone](./Imagens/executar_linha.png) executarar apenas a linha de código/*script* (já se acostume com este termo) em que o curso estiver.
 
 Exemplo:
-[](./Imagens/linha.png)
+![](./Imagens/linha.png)
 
 
 
