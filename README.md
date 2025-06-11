@@ -64,4 +64,4 @@ DIARIO_DEV/
 **lf-gomes**  
 Desenvolvedor em formação | Apaixonado por tecnologia e organização  
 [GitHub](https://github.com/lf-gomes)
-[Instagram](https://github.com/lf-gomes)
+[Instagram](https://www.instagram.com/luis_fernando_sg)
