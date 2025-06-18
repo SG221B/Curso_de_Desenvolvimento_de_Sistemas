@@ -1,9 +1,8 @@
 
-## 📅 Data do Registro: 18/06/2025
+## ✅ Atividades — UC03 Auxiliar na modelagem e Manipulação de Dados
 
-### ✅ Atividades — UC03 Auxiliar na modelagem e Manipulação de Dados
 
-## 📚 Índice de Atividades
+### 📚 Índice de Atividades
 - [Atividade 1](#-atividade-1---diagrama-er-para-sistema-de-streaming)
 - [Atividade 2](#-atividade-2---sistema-para-associação-de-kart)
 - [Atividade 3](#-atividade-3)
@@ -53,6 +52,7 @@ Sua empresa foi contratada para desenvolver o sistema de uma associação nacion
 
 Diagrama:
 ![Diagrama](Atividade02.png)
+
 ![PDF](atividade2_guia_da_temporada_de_kart.pdf)
 
 
