@@ -28,12 +28,13 @@ Regras aplicadas
 - Relacionamento N:N entre usuário e conteúdo (com atributos adicionais)
 
 **Resposta:**  
-![Diagrama ER](Atividade01_DER.png)
+![Diagrama ER](./Material/Atividade01_DER.png)
 
 
 ### 🖥️ Avaliação do Tutor
 
 Resultado: **A**
+
 ---
 
 ### 📝 Atividade 2 - Sistema para Associação de Kart
@@ -50,10 +51,9 @@ Sua empresa foi contratada para desenvolver o sistema de uma associação nacion
    - **Importante:** Execute `SET SQL_SAFE_UPDATES = 0;` para desativar a proteção contra atualizações inseguras.
 5. Exibir os **dados dos pilotos**.
 
-Diagrama:
-![Diagrama](Atividade02.png)
+![Diagrama:](./Material/Atividade02.png)
 
-[PDF](atividade2_guia_da_temporada_de_kart.pdf)
+[PDF:](./Material/atividade2_guia_da_temporada_de_kart.pdf)
 
 
 **Resposta:**  
@@ -71,55 +71,55 @@ USE KART_AT02;
 -- TEMPORADA
 CREATE TABLE Temporada (
 	idTemporada INT NOT NULL AUTO_INCREMENT,
-    Numero INT NOT NULL,
-    PRIMARY KEY(idTemporada)
+	Numero INT NOT NULL,
+	PRIMARY KEY(idTemporada)
 );
 
 -- PATROCINIO
 CREATE TABLE Patrocinio (
 	idPatrocinio INT AUTO_INCREMENT,
-    nomePatrocinio VARCHAR(45) NOT NULL,
-    PRIMARY KEY(idPatrocinio)
+ 	nomePatrocinio VARCHAR(45) NOT NULL,
+	PRIMARY KEY(idPatrocinio)
 );
 
 -- EQUIPE
 CREATE TABLE Equipe (
 	idEquipe INT NOT NULL AUTO_INCREMENT,
-    Nome VARCHAR(45) NOT NULL,
-    patrocinio_idPatrocinio INT UNIQUE,
-    PRIMARY KEY(idEquipe),
-    FOREIGN KEY(patrocinio_idPatrocinio) REFERENCES Patrocinio(idPatrocinio)
+	Nome VARCHAR(45) NOT NULL,
+	patrocinio_idPatrocinio INT UNIQUE,
+	PRIMARY KEY(idEquipe),
+	FOREIGN KEY(patrocinio_idPatrocinio) REFERENCES Patrocinio(idPatrocinio)
 );
 
 -- PILOTO
 CREATE TABLE Piloto (
 	idPiloto INT NOT NULL AUTO_INCREMENT,
-    Nome VARCHAR(45) NOT NULL,
-    Peso FLOAT NOT NULL,
-    Capitao TINYINT NOT NULL,
-    Equipe_idEquipe INT NOT NULL,
-    Nacionalidade VARCHAR(45),
-    PRIMARY KEY(idPiloto),
-    FOREIGN KEY(Equipe_idEquipe) REFERENCES Equipe(idEquipe)
+	Nome VARCHAR(45) NOT NULL,
+	Peso FLOAT NOT NULL,
+	Capitao TINYINT NOT NULL,
+	Equipe_idEquipe INT NOT NULL,
+	Nacionalidade VARCHAR(45),
+	PRIMARY KEY(idPiloto),
+	FOREIGN KEY(Equipe_idEquipe) REFERENCES Equipe(idEquipe)
 );
 
 -- ETAPA
 CREATE TABLE Etapa (
 	idEtapa INT NOT NULL AUTO_INCREMENT,
-    Local VARCHAR(45) NOT NULL,
-    Data DATE NOT NULL,
-    Hora VARCHAR(45)NOT NULL,
-    Temporada_idTemporada INT NOT NULL,
-    PRIMARY KEY(idEtapa),
-    FOREIGN KEY(Temporada_idTemporada) REFERENCES Temporada(idTemporada)
+	Local VARCHAR(45) NOT NULL,
+	Data DATE NOT NULL,
+	Hora VARCHAR(45)NOT NULL,
+	Temporada_idTemporada INT NOT NULL,
+	PRIMARY KEY(idEtapa),
+	FOREIGN KEY(Temporada_idTemporada) REFERENCES Temporada(idTemporada)
 );
 
 -- Relacionamento N:N entre ETAPA e PILOTO
 CREATE TABLE Etapa_has_Piloto (
 	Etapa_idEtapa INT NOT NULL,
-    Piloto_idPiloto INT NOT NULL,
-    FOREIGN KEY(Etapa_idEtapa) REFERENCES Etapa(idEtapa),
-    FOREIGN KEY(Piloto_idPiloto) REFERENCES Piloto(idPiloto)
+	Piloto_idPiloto INT NOT NULL,
+	FOREIGN KEY(Etapa_idEtapa) REFERENCES Etapa(idEtapa),
+	FOREIGN KEY(Piloto_idPiloto) REFERENCES Piloto(idPiloto)
 );
 
 
