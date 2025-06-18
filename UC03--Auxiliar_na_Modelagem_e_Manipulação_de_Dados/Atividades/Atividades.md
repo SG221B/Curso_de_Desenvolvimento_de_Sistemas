@@ -1,25 +1,7 @@
 
-
-### 📄 Entidades Modeladas
-- **Usuário** (com vínculo obrigatório a um endereço)
-- **Endereço**
-- **Conteúdo** (associado a um estúdio)
-- **Estúdio**
-- **Visualização** (relacionamento N:N entre usuário e conteúdo)
-
-### 📌 Regras aplicadas
-- Relacionamento 1:1 entre usuário e endereço  
-- Relacionamento 1:N entre estúdio e conteúdo  
-- Relacionamento N:N entre usuário e conteúdo (com atributos adicionais)
-
-
 ## 📅 Data do Registro: 18/06/2025
 
 ### ✅ Atividades — UC03 Auxiliar na modelagem e Manipulação de Dados
-
-## ℹ️ Informações
-- **Data de conclusão:** ***
-- **Última atualização:** ***
 
 ## 📚 Índice de Atividades
 - [Atividade 1](#-atividade-1---diagrama-er-para-sistema-de-streaming)
@@ -50,7 +32,7 @@ Regras aplicadas
 ![Diagrama ER](Atividade01_DER.png)
 
 
-## 🖥️ Avaliação do Tutor
+### 🖥️ Avaliação do Tutor
 
 Resultado: **A**
 ---
@@ -204,7 +186,7 @@ SELECT * FROM Piloto;
 -- Entregue o arquivo da atividade em fromato compactado (rar, zip ou 7z) com o scripts
 ```
 
-## 🖥️ Avaliação do Tutor
+### 🖥️ Avaliação do Tutor
 
 Resultado: ****
 
