@@ -53,7 +53,7 @@ Sua empresa foi contratada para desenvolver o sistema de uma associação nacion
 Diagrama:
 ![Diagrama](Atividade02.png)
 
-![PDF](atividade2_guia_da_temporada_de_kart.pdf)
+[PDF](atividade2_guia_da_temporada_de_kart.pdf)
 
 
 **Resposta:**  
