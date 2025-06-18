@@ -1,18 +1,23 @@
-## 📅 11/06/2025
 
-### 🧠 Tópicos estudados
-- Conceitos básicos da teoria dos conjuntos
-- Operações com conjuntos: união, interseção e diferença.
+## 📅 Data do Registro: 16 de junho de 2025
 
-### ✍️ Conteúdo
-*(você preenche)*
+### 🎯 Tema: Consultas com Multiplas Tabelas
 
-### 📌 Resumo pessoal
-*(você preenche)*
+## ℹ️ Informações
+- **Data de conclusão:** ***
+- **Última atualização:** ***
 
-### 📚 Lições
-1. ...
-2. ...
+## 📚 Indice de Lições
+- [União, Intersecção, Junção, Agrupamento](#-lição-1-união-intersecção-junção-agrupamento)
 
-### 💡 Dica ou observação
-*(opcional)*
+---
+
+### 📘 Lição 1: União, Intersecção, Junção, Agrupamento
+
+
+
+### 📘 Lição 2:
+
+
+### 📘 Lição :
+
