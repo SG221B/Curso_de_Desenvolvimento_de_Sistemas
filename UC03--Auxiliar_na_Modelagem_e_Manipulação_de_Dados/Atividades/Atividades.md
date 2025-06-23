@@ -5,7 +5,7 @@
 ### 📚 Índice de Atividades
 - [Atividade 1](#-atividade-1---diagrama-er-para-sistema-de-streaming)
 - [Atividade 2](#-atividade-2---sistema-para-associação-de-kart)
-- [Atividade 3](#-atividade-3)
+- [Atividade 3](#-atividade-3---filtros-avançados-em-mysql)
 
 ---
 
@@ -188,16 +188,104 @@ SELECT * FROM Piloto;
 
 ### 🖥️ Avaliação do Tutor
 
-Resultado: ****
+Resultado: **A**
 
 ---
 
-### 📝 Atividade 3
+### 📝 Atividade 3 - Filtros Avançados em MySQL
 
 **Descrição:**  
+Sua empresa foi contratada para desenvolver o banco de dados da TDS Cloud Gaming. O banco já foi criado e povoado, com as seguintes tabelas: Usuario, Desenvolvedora, Jogo, Categoria, JogoCategoria e Biblioteca. Agora, é necessário criar filtros de busca mais avançados utilizando as técnicas de MySQL aprendidas. As consultas devem selecionar e filtrar dados. A atividade requer o uso de comandos SELECT, com JOIN e subconsultas, conforme apropriado.
 
+
+Atividade:
+
+1 - Selecione todos os usuários cadastrados após 01 de março de 2023;
+2 - Selecione todos os jogos com preço superior a 100.00;
+3 - Encontre todas as desenvolvedoras que foram fundadas depois do ano 2000;
+4 - Liste todos os jogos da desenvolvedora "Valve Corporation";
+5 - Calcule o preço médio dos jogos na plataforma;
+6 - Calcule o preço total dos jogos comprados pelo usuário "Carlos Silva";
+7 - Encontre o jogo mais caro da desenvolvedora "Rockstar Games";
+8 - Liste todos os jogos na categoria "RPG";
+9 - Liste todos os usuários e os jogos que eles possuem na biblioteca;
+10 -Encontre o número total de jogos na plataforma desenvolvidos por estúdios dos EUA.
 
 **Resposta:**  
+```sql
+-- UC03 - Atividade 3
+-- Aluno: Luis Fernando S. Gomes
+-- Data: 23/06/25
 
+
+-- PASSO 1 - DOWNLOAD E EXECUÇÃO DO SCRIPT: OK
+
+-- SELECIONE TODOS OS USUÁRIOS CADASTRADOS APÓS 01 DE MARÇO DE 2023
+SELECT * FROM Usuario WHERE data_cadastro > '2023-03-01';
+
+
+-- SELECIONE TODOS OS JOGOS COM PREÇO SUPERIOR A 100.00
+SELECT * FROM Jogo WHERE preco > 100.00;
+
+
+-- ENCONTRE TODAS AS DESENVOLVEDORAS QUE FORAM FUNDADAS DEPOIS DO ANO 2000
+SELECT * FROM Desenvolvedora WHERE ano_fundacao > '2000';
+
+
+-- LISTE TODOS OS JOGOS DA DESENVOLVEDORA "VALVE CORPORATION"
+-- 1º Código
+SELECT J.* FROM Jogo AS J
+JOIN Desenvolvedora AS D
+ON J.id_desenvolvedora = D.id
+WHERE D.nome = 'Valve Corporation';
+
+-- 2º Código
+SELECT * FROM Jogo
+WHERE id_desenvolvedora = (
+	SELECT id FROM Desenvolvedora WHERE nome = 'Valve Corporation'
+    );
+
+
+-- CALCULE O PREÇO MÉDIO DOS JOGOS NA PLATAFORMA
+SELECT AVG(preco) AS preco_medio FROM Jogo;
+
+
+-- CALCULE O PREÇO TOTAL DOS JOGOS COMPRADOS PELO USUÁRIO "CARLOS SILVA"
+SELECT SUM(J.preco) AS total_gasto FROM Biblioteca AS B
+JOIN Usuario AS U ON B.id_usuario = U.id
+JOIN Jogo AS J ON B.id_jogo = J.id
+WHERE U.nome = 'Carlos Silva';
+
+
+-- ENCONTRE O JOGO MAIS CARO DA DESENVOLVEDORA "ROCKSTAR GAMES"
+SELECT J.*  FROM Jogo AS J
+JOIN Desenvolvedora AS D ON J.id_desenvolvedora = D.id
+WHERE D.nome = 'Rockstar Games' ORDER BY J.preco DESC LIMIT 1;
+
+
+-- LISTE TODOS OS JOGOS NA CATEGORIA "RPG"
+SELECT J.* FROM Jogo AS J
+JOIN JogoCategoria AS JC ON J.id = JC.id_jogo
+JOIN Categoria AS C ON JC.id_categoria = C.id
+WHERE C.nome = 'RPG';
+
+
+-- LISTE TODOS OS USUÁRIOS E OS JOGOS QUE ELES POSSUEM NA BIBLIOTECA
+SELECT U.nome AS usuario, J.titulo AS jogo FROM Biblioteca AS B
+JOIN Usuario AS U ON B.id_usuario = U.id
+JOIN Jogo AS J ON B.id_jogo = J.id ORDER BY U.nome;
+
+
+-- ENCONTRE O NÚMERO TOTAL DE JOGOS NA PLATAFORMA DESENVOLVIDOS POR ESTÚDIOS DOS EUA
+SELECT COUNT(*) AS total_jogos FROM Jogo AS J
+JOIN Desenvolvedora AS D ON J.id_desenvolvedora = D.id
+WHERE D.pais = 'EUA';
+
+-- DICA: TODAS ESSAS QUERIES SÃO RESOLVIDAS COM SELECT, ALGUMAS SERÁ NECESSÁRIO O USO DE JOIN OU OUTRAS SUB CONSULTAS.
+```
+
+### 🖥️ Avaliação do Tutor
+
+Resultado: ****
 
 ---
