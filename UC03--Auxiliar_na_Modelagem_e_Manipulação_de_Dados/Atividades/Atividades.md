@@ -286,6 +286,6 @@ WHERE D.pais = 'EUA';
 
 ### 🖥️ Avaliação do Tutor
 
-Resultado: ****
+Resultado: **A**
 
 ---
