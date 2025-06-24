@@ -201,14 +201,23 @@ Sua empresa foi contratada para desenvolver o banco de dados da TDS Cloud Gaming
 Atividade:
 
 1 - Selecione todos os usuários cadastrados após 01 de março de 2023;
+
 2 - Selecione todos os jogos com preço superior a 100.00;
+
 3 - Encontre todas as desenvolvedoras que foram fundadas depois do ano 2000;
+
 4 - Liste todos os jogos da desenvolvedora "Valve Corporation";
+
 5 - Calcule o preço médio dos jogos na plataforma;
+
 6 - Calcule o preço total dos jogos comprados pelo usuário "Carlos Silva";
+
 7 - Encontre o jogo mais caro da desenvolvedora "Rockstar Games";
+
 8 - Liste todos os jogos na categoria "RPG";
+
 9 - Liste todos os usuários e os jogos que eles possuem na biblioteca;
+
 10 -Encontre o número total de jogos na plataforma desenvolvidos por estúdios dos EUA.
 
 **Resposta:**  
