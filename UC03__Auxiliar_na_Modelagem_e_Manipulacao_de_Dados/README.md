@@ -1,4 +1,4 @@
-# 🗃️ UC03 — Auxiliar na Modelagem e Manipulação e Banco de Dados
+# 🗃️ UC03 — Auxiliar na modelagem e manipulação de banco de dados
 
 ## 📅 Informações
 - **Data de início:** 13/05/2025
@@ -13,14 +13,14 @@
 
 ## 📚 Índice dos Módulos
 
-- [ ] [Módulo 01 - A revisar](Modulo_01.md)
-- [x] [Módulo 02 - Modelagem Conceitual do Banco de Dados](Modulo_02.md)
-- [ ] [Módulo 03 - ](Modulo_03.md)
-- [x] [Módulo 04 - Limguagem SQL](Modulo_04.md)
-- [x] [Módulo 05 - Definição de Dados](Modulo_05.md)
-- [ ] [Módulo 06 - Manipulação de Dados](Modulo_06.md)
-- [ ] [Módulo 07 - Consulta de Dados](Modulo_07.md)
-- [ ] [Módulo 08 - Consulta com Múltiplas Tabelas](Modulo_08.md)
+- [ ] [Módulo 01 - ](./)
+- [x] [Módulo 02 - ](./)
+- [ ] [Módulo 03 - ](./)
+- [x] [Módulo 04 - ](./)
+- [x] [Módulo 05 - ](./)
+- [ ] [Módulo 06 - ](./)
+- [ ] [Módulo 07 - ](./)
+- [ ] [Módulo 08 - ](./)
 
 - [Atividades](./Atividades/Atividades.md)
 
@@ -31,9 +31,7 @@
 ```
 UC03/
 ├── Atividades/
-|   └── Material/
 |   └── Atividades.md
-├── Material/
 ├── Modulo_01.md
 ├── Modulo_02.md
 ├── Modulo_03.md
