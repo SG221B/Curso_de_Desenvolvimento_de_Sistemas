@@ -1,4 +1,4 @@
-# 🗃️ UC04 — Auxiliar na administração de banco de dados
+# 🗃️ UC05 — Desenvolver código orientado a objetos
 
 ## 📅 Informações
 - **Data de início:** DD/MM/AAAA
@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Status da UC03
+## 📌 Status da UC05
 > ⏳ A iniciar
 
 ---
@@ -18,16 +18,15 @@
 - [ ] [Módulo 03 - ](./)
 - [ ] [Módulo 04 - ](./)
 - [ ] [Módulo 05 - ](./)
-- [ ] [Módulo 06 - ](./)
-- [ ] [Módulo 07 - ](./)
-- [ ] [Módulo 08 - ](./)
+
+- [Atividades](./Atividades/Atividades.md)
 
 ---
 
 ## 📁 Estrutura da Pasta
 
 ```
-UC04/
+UC05/
 ├── Atividades/
 |   └── Atividades.md
 ├── Modulo_01.md

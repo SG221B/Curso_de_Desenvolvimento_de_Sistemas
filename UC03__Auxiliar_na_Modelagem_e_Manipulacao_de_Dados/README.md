@@ -13,14 +13,16 @@
 
 ## 📚 Índice dos Módulos
 
-- [ ] [Módulo 01 - A revisar](./)
-- [x] [Módulo 02 - Modelagem Conceitual do Banco de Dados](Modulo_02--Modelagem_Conceitual_do_Banco_de_Dados.md)
-- [ ] [Módulo 03 - ](./)
-- [x] [Módulo 04 - Limguagem SQL](Modulo_04--Linguagem_SQL.md)
-- [x] [Módulo 05 - Definição de Dados](Modulo_05--Definição_de_Dados.md)
-- [ ] [Módulo 06 - Manipulação de Dados](Modulo-06--Manupulacao_de_Dados.md)
-- [ ] [Módulo 07 - Consulta de Dados](Modulo-07--Consulta_de_Dados.md)
-- [ ] [Módulo 08 - Consulta com Múltiplas Tabelas](Modulo-08--Consulta_com_Multiplas_Tabelas.md)
+- [ ] [Módulo 01 - A revisar](Modulo_01.md)
+- [x] [Módulo 02 - Modelagem Conceitual do Banco de Dados](Modulo_02.md)
+- [ ] [Módulo 03 - ](Modulo_03.md)
+- [x] [Módulo 04 - Limguagem SQL](Modulo_04.md)
+- [x] [Módulo 05 - Definição de Dados](Modulo_05.md)
+- [ ] [Módulo 06 - Manipulação de Dados](Modulo_06.md)
+- [ ] [Módulo 07 - Consulta de Dados](Modulo_07.md)
+- [ ] [Módulo 08 - Consulta com Múltiplas Tabelas](Modulo_08.md)
+
+- [Atividades](./Atividades/Atividades.md)
 
 ---
 
