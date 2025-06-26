@@ -151,11 +151,14 @@ Exemplo de documento JSON:
 
 ```json
 {
-  "cep": "01001-000",
-  "logradouro": "Praça da Sé",
-  "bairro": "Sé",
-  "localidade": "São Paulo",
-  "uf": "SP"
+"cep": "01001-000",
+"logradouro": "Praça da Sé",
+"complemento": "lado ímpar",
+"bairro": "Sé",
+"localidade": "São Paulo",
+"uf": "SP",
+"ibge": "3550308",
+"gia": "1004"
 }
 ```
 
@@ -171,25 +174,11 @@ Principais tipos de bancos NoSQL:
 ## 📘 Lição 5 — SGBD e Implantação de Banco de Dados
 
 **📅 Data do Registro:** DD/MM/AAAA  
-**📚 Tema:** Sistema Gerenciador de Banco de Dados e seu uso
+**📚 Tema:** Sistema Gerenciador de Banco de Dados e instalação Workbanch
 
 ### 📝 Conteúdo
 
-O SGBD (Sistema Gerenciador de Banco de Dados) é o software responsável por criar, gerenciar e operar um banco de dados. Ele oferece ferramentas para:
 
-Criação de tabelas e relacionamentos
-Execução de consultas
-Controle de usuários
-Garantia de integridade
-Gerenciamento de transações
-
-Exemplos de SGBDs: MySQL, PostgreSQL, Oracle, SQL Server.
-A implantação de um banco envolve:
-Definir requisitos do sistema
-Projetar o modelo de dados
-Implementar o banco no SGBD escolhido
-Testar e validar
-Iniciar o uso com segurança e monitoramento.
 
 ---
 

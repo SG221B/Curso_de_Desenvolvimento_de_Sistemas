@@ -8,7 +8,7 @@
 
 ## 📌 Status da UC03
 > 🔁 Precisa revisar
-> Nota: Trabalhando no Modulo_01.md
+> Nota: Trabalhando no Modulo_01.md - inserir conteúdo: lição 5 (Remover esta nota ao finalizar)
 
 ---
 
