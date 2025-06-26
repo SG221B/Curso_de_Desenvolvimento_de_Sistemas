@@ -1,23 +1,53 @@
+# 📦 Módulo 01 — *Título do Módulo*
 
-## 📅 Data do Registro: 16 de junho de 2025
-
-### 🎯 Tema: Consultas com Multiplas Tabelas
-
-## ℹ️ Informações
-- **Data de conclusão:** ***
-- **Última atualização:** ***
-
-## 📚 Indice de Lições
-- [União, Intersecção, Junção, Agrupamento](#-lição-1-união-intersecção-junção-agrupamento)
+## 📅 Informações
+- **UC:** UC03 — Auxiliar na Modelagem e Manipulação de Dados
+- **Data de início:** DD/MM/AAAA
+- **Data de conclusão:** DD/MM/AAAA  
+- **Última atualização:** 26/06/2026
 
 ---
 
-### 📘 Lição 1: União, Intersecção, Junção, Agrupamento
+## 📖 Índice de Lições
 
+- [ ] [Lição 01](./)
+- [ ] [Lição 02](./)
+- [ ] [Lição 03](./)
 
+---
 
-### 📘 Lição 2:
+## 📘 Lição 1 — *Nome da Lição 1*
 
+**📅 Data do Registro:** DD/MM/AAAA  
+**📚 Tema:** *[Tema central ou conteúdo tratado]*
 
-### 📘 Lição :
+### 📝 Conteúdo  
+
+---
+
+## 📘 Lição 2 — *Nome da Lição 2*
+
+**📅 Data do Registro:** DD/MM/AAAA  
+**📚 Tema:** *[Tema central ou conteúdo tratado]*
+
+### 📝 Conteúdo  
+
+---
+
+## 📘 Lição 3 — *Nome da Lição 3*
+
+**📅 Data do Registro:** DD/MM/AAAA  
+**📚 Tema:** *[Tema central ou conteúdo tratado]*
+
+### 📝 Conteúdo  
+
+---
+
+### ✅ Observações Finais do Módulo
+
+- Dificuldades encontradas  
+- Estratégias que funcionaram  
+- Pontos para revisar mais tarde  
+- Dicas futuras
+
 
