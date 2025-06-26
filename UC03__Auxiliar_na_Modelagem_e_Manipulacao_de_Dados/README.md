@@ -8,6 +8,7 @@
 
 ## 📌 Status da UC03
 > 🔁 Precisa revisar
+> Nota: Trabalhando no Modulo_01.md
 
 ---
 
