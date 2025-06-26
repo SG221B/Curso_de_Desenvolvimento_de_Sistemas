@@ -77,10 +77,10 @@ Antes de entender tecnicamente como um banco de dados funciona, é útil imagina
 Nos bancos de dados relacionais, os dados são organizados em **tabelas** formadas por **colunas** (tipos de informação) e **linha**s (os dados em si). É como uma planilha do Excel onde o banco é a planilha, e cada aba é uma tabela com suas colunas e linhas.
 
 Ex.: 
- _______________________________________________
-|**id** | **nome**              |  **idade**    |   **pais**     |
-|1  | Henrique Marques  |  28       |   Brasil   |
-|2  | Terry Crews       |  65       |    USA     |
+| **id** | **nome**            | **idade** | **país** |
+|--------|---------------------|-----------|----------|
+| 1      | Henrique Marques    | 28        | Brasil   |
+| 2      | Terry Crews         | 65        | USA      |
 
 
 ---
