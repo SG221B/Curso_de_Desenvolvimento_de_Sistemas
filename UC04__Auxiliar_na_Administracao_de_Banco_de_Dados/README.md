@@ -8,6 +8,7 @@
 
 ## 📌 Status da UC04
 > ⏳ A iniciar
+> Data: 30/06/2025
 
 ---
 

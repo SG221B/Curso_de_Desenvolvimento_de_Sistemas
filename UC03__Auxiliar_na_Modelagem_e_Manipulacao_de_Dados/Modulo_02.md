@@ -1,38 +1,31 @@
-# Diário de Estudos — UC03
+# 📦 Módulo 02 — Modelagem Conceitual do Banco de Dados
 
-## 📅 15 de maio de 2025
-
-### Tópico: Modelagem Conceitual do Banco de Dados
-
-## ℹ️ Informações
-- **Início do estudo:** 15 de maio de 2025  
-- **Data de conclusão:** 26 de maio de 2025 
-- **Última atualização:** 27 de maio de 2025
-
-## 📚 Conteúdo do Diário
-- [🗂️ Levantamento de dados](#-lição-1-levantamento-de-dados)
-- [📝 Levantamento e Especificação de requisitos](#-lição-2-levantamento-e-especificação-de-requisitos)
-- [📖 Dicionário de dados](#-lição-3-dicionário-de-dados)
-- [🗄️ Arquitetura de arquivos](#-lição-4-arquitetura-de-arquivos-de-dados)
-- [📐 Teoria dos conjuntos](#-lição-5-teoria-dos-conjuntos)
-- [🔢 Tipos de dados](#-lição-6-tipos-de-dados)
-- [🔒 Integridade referencial](#-lição-7-integridade-referêncial)
+## 📅 Informações
+- **UC:** UC03 — Auxiliar na Modelagem e Manipulação de Dados
+- **Data de início:** 15/05/2025  
+- **Data de conclusão:** 26/05/2025  
+- **Última atualização:** 29/06/2026
 
 ---
 
-#
+## 📖 Índice de Lições
 
-## 📅 15 de maio de 2025
-
-### 📘 Lição 1: Levantamento de dados
-
-- O levantamento de dados é a etapa em que se coleta todas as informações relevantes sobre o ambiente que será modelado.
-- Envolve observar processos, conversar com usuários e levantar documentos.
-- É uma etapa investigativa e aberta, sem ainda criar diagramas ou restrições técnicas.
+- [ ] [Lição 1 — Levantamento de dados](#-lição-1--levantamento-de-dados)
+- [ ] [Lição 2 — Levantamento e Especificação de requisitos](#-lição-2--levantamento-e-especificação-de-requisitos)
+- [ ] [Lição 3 — Dicionário de dados](#-lição-3--dicionário-de-dados)
+- [ ] [Lição 4 — Arquitetura de arquivos](#-lição-4--arquitetura-de-arquivos-de-dados)
+- [ ] [Lição 5 — Teoria dos conjuntos](#-lição-5--teoria-dos-conjuntos)
+- [ ] [Lição 6 — Tipos de dados](#-lição-6--tipos-de-dados)
+- [ ] [Lição 7 — Integridade referencial](#-lição-7--integridade-referêncial)
 
 ---
 
-**🧠 Aprendizado:**
+### 📘 Lição 1 — Levantamento de dados
+
+**📅 Data do Registro:** 26/06/2025  
+**📚 Tema:** 
+
+### 📝 Conteúdo
 
 O **levantamento de dados** tem como objetivo entender as principais e reais necessidades do cliente.  
 Para isso, são utilizadas diversas técnicas, como:
@@ -60,19 +53,14 @@ Para isso, são utilizadas diversas técnicas, como:
 
 > Como exatamente ele vai fazer isso? Problema dele! 😄  
 > (Brincadeiras à parte... um dia pode ser o seu trabalho ou o meu, então é bom entender desde já!)
-#
 
-## 📅 19 de maio de 2025
 
-### 📘 Lição 2: Levantamento e especificação de requisitos
+### 📘 Lição 2 — Levantamento e especificação de requisitos
 
-- Essa etapa define o que o sistema precisa fazer.
-- Consiste em documentar de forma clara e organizada como o sistema pode alcançar esses objetivos.
-- Os requisitos levantados são compartilhados com a equipe e os clientes para garantir o alinhamento entre todos os envolvidos.
+**📅 Data do Registro:** 26/06/2025  
+**📚 Tema:**
 
----
-
-**🧠 Aprendizado:**
+### 📝 Conteúdo
 
 Sabe quando alguém te pede um favor, mas não explica direito o que quer? Quais são as chances disso dar errado? 
 Para evitar que isso aconteça no seu projeto, é realizado o **levantamento e especificação de requisitos** que consiste basicamente em *entender — o que o sistema — precisa fazer*
@@ -87,14 +75,12 @@ Isso ajuda todo mundo a falar a mesma língua, evitar confusão e tudo terminar 
 
 ---
 
-### 📘 Lição 3: Dicionário de dados
+### 📘 Lição 3 — Dicionário de dados
 
-- Descrever o que cada dado significa.
-- Garantir que todo mundo entenda os dados da mesma forma.
+**📅 Data do Registro:** 26/06/2025  
+**📚 Tema:** 
 
----
-
-**🧠 Aprendizado:**
+### 📝 Conteúdo
 
 Pense em um diacioário de verdade, como o Aurélio. Ele explica o que cada palavra significa, certo?  
 O **dicionário de dados** é parecido: ele explica os *componentes do sistema* — o que são, como são usados e qual seu significado.
@@ -114,17 +100,13 @@ Imagine uma entidade “consumidor”, com seus atributos. Em um dicionário de 
 
 ![Exemplo](./Imagens/UC03%20-%20exemplo_de_dicionario_de_dados.png)
 
-#
 
-## 📅 20 de maio de 2025
+### 📘 Lição 4 — Arquitetura de Arquivos de Dados
 
-### 📘 Lição 4: Arquitetura de Arquivos de Dados
+**📅 Data do Registro:** 26/06/2025  
+**📚 Tema:** 
 
-- Conhecer os mecanismos de armazenamento do MySQL (MyISAM e InnoDB)
-
----
-
-**🧠 Aprendizado:**
+### 📝 Conteúdo
 
 A **arquitetura de arquivos de dados** define como os dados são armazenados e acessados dentro de um sistema. No contexto de bancos de dados relacionais, como o MySQL, isso envolve a **escolha do mecanismo de armazenamento** das tabelas. Para simplificar, é como escolher se você irá usar um HD ou um SSD para salvar seus arquivos.
 
@@ -177,16 +159,13 @@ Imagine um site com uma tabela chamada `noticias`:
 - Se os usuários **só leem** as notícias, e elas **quase nunca mudam**, o **MyISAM** pode funcionar bem.
 - Se os usuários **comentam**, **curtem** e as notícias são **editadas frequentemente**, o **InnoDB** é muito melhor — graças ao **bloqueio por linha**, que permite múltiplas modificações ao mesmo tempo sem travar tudo.
 
-#
 
-## 📅 21 de maio de 2025
+### 📘 Lição 5 — Teoria dos Conjuntos
 
-### 📘 Lição 5: Teoria dos Conjuntos
+**📅 Data do Registro:** 26/06/2025  
+**📚 Tema:**
 
-- Conceitos básicos da teoria dos conjuntos
-- Operações com conjuntos: união, interseção e diferença
-
-**🧠 Aprendizado:**
+### 📝 Conteúdo
 
 Primeiro, quero dizer para não se assustar — você vai ver algumas fórmulas matemáticas aqui, mas a ideia é entender como a teoria dos conjuntos está relacionada a banco de dados, e é bem simples. É sobre como você vai extrair os dados do banco de forma organizada.
 
@@ -249,20 +228,12 @@ Agora vamos ver algumas **operações com conjuntos** e como elas se aplicam ao 
 
 ---
 
-#
+### 📘 Lição 6 — Tipos de Dados
 
-## 📅 22 de maio de 2025
+**📅 Data do Registro:** 26/06/2025  
+**📚 Tema:**
 
-### 📘 Lição 6: Tipos de Dados
-
-- Importância de escolher o tipo certo para cada situação
-- Tipos de dados mais comuns:
-   Númericos
-   Alfanuméricos
-   Temporais
-
-
-**🧠 Aprendizado:**
+### 📝 Conteúdo
 
 Ao programar, é preciso definir o tipo de dado que a variável ou operação irá receber. Isso porque dados de texto e dados numéricos são tratados de maneiras diferentes.
 Por exemplo: com texto, podemos fazer separação de sílabas, acentuação, etc. Com números, podemos realizar cálculos, equações e operações matemáticas.
@@ -341,16 +312,12 @@ Claramente, dados de tempo. Vejamos:
 **Time:**
 > É utilizado para armazenar horas (padrão americano HH:MM:SS, Por exemplo: 22:45:32)
 
-#
+### 📘 Lição 7 — Integridade Referêncial
 
-## 📅 23 de maio de 2025
+**📅 Data do Registro:** 26/06/2025  
+**📚 Tema:**
 
-### 📘 Lição 7: Integridade Referêncial
-- Comportamento dos campos compostos por chaves:
-    Chave primária (PK), chave candidata (UK), chave estrangeira (FK)
-- Mecanismos para integridade referencial
-
-**🧠 Aprendizado:**
+### 📝 Conteúdo
 
 A integridade de dados é uma regra do banco de dados que garante que os dados de uma tabela **estejam corretamente ligados** aos dados de outra tabela.
 

@@ -3,7 +3,7 @@
 ## 📅 Informações
 - **UC:** UC03 — Auxiliar na Modelagem e Manipulação de Dados
 - **Data de início:** 13/05/2025  
-- **Data de conclusão:** DD/MM/AAAA  
+- **Data de conclusão:** 26/06/2025  
 - **Última atualização:** 26/06/2026
 
 ---
@@ -123,7 +123,7 @@ Tudo isso é feito de forma rápida e eficiente pelos sistemas de banco de dados
 
 ## 📘 Lição 4 — Modelo Relacional x Não Relacional
 
-**📅 Data do Registro:** DD/MM/AAAA
+**📅 Data do Registro:** 26/06/2025
 **📚 Tema:** Comparação entre modelos de banco de dados
 
 ### 📝 Conteúdo
@@ -178,7 +178,7 @@ Principais tipos de bancos NoSQL:
 
 ### 📝 Conteúdo
 
-
+(incluir conteúdo sobre a instalação do Workbanch)
 
 ---
 
