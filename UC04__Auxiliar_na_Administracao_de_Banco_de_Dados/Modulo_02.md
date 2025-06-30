@@ -1,4 +1,4 @@
-# 📦 Módulo 01 — Recuperação de dados: backup, restore, planos para desastres
+# 📦 Módulo 01 — *Título do Módulo*
 
 ## 📅 Informações
 - **UC:** UC04 — Auxiliar na Administração de Banco de Dados
